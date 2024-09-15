@@ -1,3 +1,5 @@
+Questions:
+
 1. Podemos supor que todos os tamanhos são potenciais de 2?
 (Se sim podemos apenas fazer bitmask = BLOCKSIZES - 1)
 
@@ -7,4 +9,12 @@ o tamanho do dram não faz com que os endereços não são maiores que 32 bits?
 
 3. Podemos criar novos constants ou nao é ideal?
 
-4. Como é que os testes selecionam qual dos 3 caches para utilizar?
+
+
+
+
+
+Notes and possible issues:
+
+1. Linked lists ou outro tipe de estrutura para os caches?
+
