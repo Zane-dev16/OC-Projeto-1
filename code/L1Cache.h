@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdint.h>
+#include <math.h>
 #include "Cache.h"
 
 void resetTime();
@@ -27,7 +28,7 @@ typedef struct CacheLine {
 
 typedef struct Cache {
   uint32_t init;
-  CacheLine line;
+  CacheLine lines[L1_SIZE / BLOCK_SIZE];
 } Cache;
 
 /*********************** Interfaces *************************/
