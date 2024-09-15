@@ -41,7 +41,7 @@ uint32_t getNumIndexBits(uint32_t cacheSize) {
 }
 
 uint32_t getNumBlockOffsetBits() {
-    return log2(BLOCK_SIZE / WORD_SIZE); 
+    return log2(BLOCK_SIZE); 
 }
 
 uint32_t getTag(uint32_t address) {
@@ -88,6 +88,14 @@ void accessL1(uint32_t address, uint8_t *data, uint32_t mode) {
     /* access Cache*/
 
     if (!Line->Valid || Line->Tag != Tag) {         // if block not present - miss
+        printf("Cache Miss");
+        if (Line->Tag != Tag) {
+            printf("Line Tag: %d\n", Line->Tag);
+            printf("Address Tag: %d\n", Tag);
+        }
+        else {
+            printf("%d\n", 15 >> 4);
+        }
         accessDRAM(MemAddress, TempBlock, MODE_READ); // get new block from DRAM
 
         if ((Line->Valid) && (Line->Dirty)) { // line has dirty block
