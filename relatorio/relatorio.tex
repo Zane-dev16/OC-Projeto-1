@@ -1,16 +1,38 @@
-\documentclass[11pt,a4paper]{article}
-
-% Pacotes
-\usepackage[margin=1in]{geometry}
-\usepackage[portuguese]{babel}
+\documentclass{article}
 \usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
 \usepackage{amsmath}
-\usepackage{graphicx}
-\usepackage{hyperref}
 \usepackage{listings}
+\usepackage{color}
 
-% Título
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=1
+}
+
+\lstset{style=mystyle}
+
 \title{Relatório do Projeto de Simulador de Cache}
+
 \author{Seu Nome}
 \date{\today}
 
@@ -19,15 +41,66 @@
 \maketitle
 
 \section{Introdução}
-TODO
+Este relatório descreve a implementação das três tarefas do primeiro projeto da OC, abordando o seguinte:
 
-\section{Implementação}
-TODO
+\begin{itemize}
+    \item \textbf{Cache L1 (Um nível com Mapeamento Direto)}
+    \item \textbf{Cache L2 (Dois níveis com Mapeamento Direto)}
+    \item \textbf{Cache L2 (2-Way Set Associative)}
+\end{itemize}
 
-\section{Resultados e Análise}
-TODO
+\section{Cache L1 de Mapeamento Direto}
+\subsection{Mapeamento Direto}
+No mapeamento direto, cada bloco de memória principal tem uma única linha de cache onde pode ser armazenado. Portanto, a localização correspondente na cache pode ser interpretada a partir do endereço dos dados na DRAM.
+
+\subsection{Componentes Principais da Implementação}
+\begin{itemize}
+\item \textbf{Cache L1}: Simula a memória do cache, rápida e pequena. Uma lista de bytes representando os dados do cache.
+\item \textbf{DRAM}: Simula a memória principal, mais lenta mas com maior capacidade.
+\item \textbf{SimpleCache}: Uma estrutura contendo as linhas do cache e init flag
+\item \textbf{Estrutura de Linha de Cache}: Cada linha contém:
+\begin{itemize}
+\item Tag
+\item Valid Bit
+\item Dirty bit (para política de write-back)
+\end{itemize}
+\end{itemize}
+\subsection{Operações Principais}
+
+\subsubsection{Leitura do Cache}
+
+\begin{enumerate}
+    \item \textbf{Extração de Índice e Tag:} É Extraído o índíce e o tag do
+    do endereço.
+
+    \item \textbf{Verificação do Bloco no Cache:} O índice extraída determina a linha do cache a ser acessada. Da linha da cache é verificada a bit de validade. Se o bloco estiver válido é comparado a tag armazenada com a tag extraída do endereço.
+
+    \item \textbf{Tratamento de Cache Hit:} Se a tag corresponde e o bloco está presente no cache (cache hit), os dados são lidos diretamente do cache e retornados.
+
+    \item \textbf{Tratamento de Cache Miss:} Se o valid bit estiver a 0 ou a tag não corresponde (cache miss):
+    \begin{itemize}
+        \item \textbf{Escrita de Bloco Sujo:} Se a linha do cache que será substituída está marcada como dirty, o bloco atual é escrito de volta para a DRAM antes de ser substituído.
+
+        \item \textbf{Leitura de Novo Bloco:} Após a escrita do bloco sujo, um novo bloco é carregado da DRAM para o cache. 
+
+        \item \textbf{Atualização do Dirty Bit:} O dirty bit é atualizado para 0.
+    \end{itemize}
+
+    \item \textbf{Atualização do Bit de Validade:} Finalmente, o bit de validade é atualizado para 1. 
+    
+\end{enumerate}
+
+
+\subsubsection{Escrita no Cache}
+
+\begin{enumerate}
+    \item \textbf{Escrita dos Dados no Cache:} Quando uma operação de escrita é realizada, os dados são diretamente escritos no bloco correspondente do cache, em vez de serem enviados imediatamente para a DRAM.
+
+    \item \textbf{Marca o Bloco como "Dirty":} Após a escrita dos dados no cache, o bloco modificado é marcado como dirty.
+
+
+\end{enumerate}
+A DRAM é atualizada somente quando o bloco do cache é substituído devido a uma operação de cache miss seguindo uma política de write-back. 
 
 \section{Conclusão}
-TODO
-
 \end{document}
