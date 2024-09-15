@@ -1,16 +1,13 @@
 
 Number of words: 1
-Cache Miss0
 Write; Address 0; Value 0; Time 101
 Read; Address 0; Value 0; Time 102
 
 Number of words: 1
-Cache Miss0
 Write; Address 0; Value 0; Time 101
 Read; Address 0; Value 0; Time 102
 
 Number of words: 4
-Cache Miss0
 Write; Address 0; Value 0; Time 101
 Write; Address 4; Value 4; Time 102
 Write; Address 8; Value 8; Time 103
@@ -21,7 +18,6 @@ Read; Address 8; Value 8; Time 107
 Read; Address 12; Value 12; Time 108
 
 Number of words: 16
-Cache Miss0
 Write; Address 0; Value 0; Time 101
 Write; Address 4; Value 4; Time 102
 Write; Address 8; Value 8; Time 103
@@ -56,7 +52,6 @@ Read; Address 56; Value 56; Time 131
 Read; Address 60; Value 60; Time 132
 
 Number of words: 64
-Cache Miss0
 Write; Address 0; Value 0; Time 101
 Write; Address 4; Value 4; Time 102
 Write; Address 8; Value 8; Time 103
@@ -73,7 +68,6 @@ Write; Address 48; Value 48; Time 113
 Write; Address 52; Value 52; Time 114
 Write; Address 56; Value 56; Time 115
 Write; Address 60; Value 60; Time 116
-Cache Miss0
 Write; Address 64; Value 64; Time 217
 Write; Address 68; Value 68; Time 218
 Write; Address 72; Value 72; Time 219
@@ -90,7 +84,6 @@ Write; Address 112; Value 112; Time 229
 Write; Address 116; Value 116; Time 230
 Write; Address 120; Value 120; Time 231
 Write; Address 124; Value 124; Time 232
-Cache Miss0
 Write; Address 128; Value 128; Time 333
 Write; Address 132; Value 132; Time 334
 Write; Address 136; Value 136; Time 335
@@ -107,7 +100,6 @@ Write; Address 176; Value 176; Time 345
 Write; Address 180; Value 180; Time 346
 Write; Address 184; Value 184; Time 347
 Write; Address 188; Value 188; Time 348
-Cache Miss0
 Write; Address 192; Value 192; Time 449
 Write; Address 196; Value 196; Time 450
 Write; Address 200; Value 200; Time 451
@@ -190,7 +182,6 @@ Read; Address 248; Value 248; Time 527
 Read; Address 252; Value 252; Time 528
 
 Number of words: 256
-Cache Miss0
 Write; Address 0; Value 0; Time 101
 Write; Address 4; Value 4; Time 102
 Write; Address 8; Value 8; Time 103
@@ -207,7 +198,6 @@ Write; Address 48; Value 48; Time 113
 Write; Address 52; Value 52; Time 114
 Write; Address 56; Value 56; Time 115
 Write; Address 60; Value 60; Time 116
-Cache Miss0
 Write; Address 64; Value 64; Time 217
 Write; Address 68; Value 68; Time 218
 Write; Address 72; Value 72; Time 219
@@ -224,7 +214,6 @@ Write; Address 112; Value 112; Time 229
 Write; Address 116; Value 116; Time 230
 Write; Address 120; Value 120; Time 231
 Write; Address 124; Value 124; Time 232
-Cache Miss0
 Write; Address 128; Value 128; Time 333
 Write; Address 132; Value 132; Time 334
 Write; Address 136; Value 136; Time 335
@@ -241,7 +230,6 @@ Write; Address 176; Value 176; Time 345
 Write; Address 180; Value 180; Time 346
 Write; Address 184; Value 184; Time 347
 Write; Address 188; Value 188; Time 348
-Cache Miss0
 Write; Address 192; Value 192; Time 449
 Write; Address 196; Value 196; Time 450
 Write; Address 200; Value 200; Time 451
@@ -258,7 +246,6 @@ Write; Address 240; Value 240; Time 461
 Write; Address 244; Value 244; Time 462
 Write; Address 248; Value 248; Time 463
 Write; Address 252; Value 252; Time 464
-Cache Miss0
 Write; Address 256; Value 256; Time 565
 Write; Address 260; Value 260; Time 566
 Write; Address 264; Value 264; Time 567
@@ -275,7 +262,6 @@ Write; Address 304; Value 304; Time 577
 Write; Address 308; Value 308; Time 578
 Write; Address 312; Value 312; Time 579
 Write; Address 316; Value 316; Time 580
-Cache Miss0
 Write; Address 320; Value 320; Time 681
 Write; Address 324; Value 324; Time 682
 Write; Address 328; Value 328; Time 683
@@ -292,7 +278,6 @@ Write; Address 368; Value 368; Time 693
 Write; Address 372; Value 372; Time 694
 Write; Address 376; Value 376; Time 695
 Write; Address 380; Value 380; Time 696
-Cache Miss0
 Write; Address 384; Value 384; Time 797
 Write; Address 388; Value 388; Time 798
 Write; Address 392; Value 392; Time 799
@@ -309,7 +294,6 @@ Write; Address 432; Value 432; Time 809
 Write; Address 436; Value 436; Time 810
 Write; Address 440; Value 440; Time 811
 Write; Address 444; Value 444; Time 812
-Cache Miss0
 Write; Address 448; Value 448; Time 913
 Write; Address 452; Value 452; Time 914
 Write; Address 456; Value 456; Time 915
@@ -326,7 +310,6 @@ Write; Address 496; Value 496; Time 925
 Write; Address 500; Value 500; Time 926
 Write; Address 504; Value 504; Time 927
 Write; Address 508; Value 508; Time 928
-Cache Miss0
 Write; Address 512; Value 512; Time 1029
 Write; Address 516; Value 516; Time 1030
 Write; Address 520; Value 520; Time 1031
@@ -343,7 +326,6 @@ Write; Address 560; Value 560; Time 1041
 Write; Address 564; Value 564; Time 1042
 Write; Address 568; Value 568; Time 1043
 Write; Address 572; Value 572; Time 1044
-Cache Miss0
 Write; Address 576; Value 576; Time 1145
 Write; Address 580; Value 580; Time 1146
 Write; Address 584; Value 584; Time 1147
@@ -360,7 +342,6 @@ Write; Address 624; Value 624; Time 1157
 Write; Address 628; Value 628; Time 1158
 Write; Address 632; Value 632; Time 1159
 Write; Address 636; Value 636; Time 1160
-Cache Miss0
 Write; Address 640; Value 640; Time 1261
 Write; Address 644; Value 644; Time 1262
 Write; Address 648; Value 648; Time 1263
@@ -377,7 +358,6 @@ Write; Address 688; Value 688; Time 1273
 Write; Address 692; Value 692; Time 1274
 Write; Address 696; Value 696; Time 1275
 Write; Address 700; Value 700; Time 1276
-Cache Miss0
 Write; Address 704; Value 704; Time 1377
 Write; Address 708; Value 708; Time 1378
 Write; Address 712; Value 712; Time 1379
@@ -394,7 +374,6 @@ Write; Address 752; Value 752; Time 1389
 Write; Address 756; Value 756; Time 1390
 Write; Address 760; Value 760; Time 1391
 Write; Address 764; Value 764; Time 1392
-Cache Miss0
 Write; Address 768; Value 768; Time 1493
 Write; Address 772; Value 772; Time 1494
 Write; Address 776; Value 776; Time 1495
@@ -411,7 +390,6 @@ Write; Address 816; Value 816; Time 1505
 Write; Address 820; Value 820; Time 1506
 Write; Address 824; Value 824; Time 1507
 Write; Address 828; Value 828; Time 1508
-Cache Miss0
 Write; Address 832; Value 832; Time 1609
 Write; Address 836; Value 836; Time 1610
 Write; Address 840; Value 840; Time 1611
@@ -428,7 +406,6 @@ Write; Address 880; Value 880; Time 1621
 Write; Address 884; Value 884; Time 1622
 Write; Address 888; Value 888; Time 1623
 Write; Address 892; Value 892; Time 1624
-Cache Miss0
 Write; Address 896; Value 896; Time 1725
 Write; Address 900; Value 900; Time 1726
 Write; Address 904; Value 904; Time 1727
@@ -445,7 +422,6 @@ Write; Address 944; Value 944; Time 1737
 Write; Address 948; Value 948; Time 1738
 Write; Address 952; Value 952; Time 1739
 Write; Address 956; Value 956; Time 1740
-Cache Miss0
 Write; Address 960; Value 960; Time 1841
 Write; Address 964; Value 964; Time 1842
 Write; Address 968; Value 968; Time 1843
@@ -720,7 +696,6 @@ Read; Address 1016; Value 1016; Time 2111
 Read; Address 1020; Value 1020; Time 2112
 
 Number of words: 1024
-Cache Miss0
 Write; Address 0; Value 0; Time 101
 Write; Address 4; Value 4; Time 102
 Write; Address 8; Value 8; Time 103
@@ -737,7 +712,6 @@ Write; Address 48; Value 48; Time 113
 Write; Address 52; Value 52; Time 114
 Write; Address 56; Value 56; Time 115
 Write; Address 60; Value 60; Time 116
-Cache Miss0
 Write; Address 64; Value 64; Time 217
 Write; Address 68; Value 68; Time 218
 Write; Address 72; Value 72; Time 219
@@ -754,7 +728,6 @@ Write; Address 112; Value 112; Time 229
 Write; Address 116; Value 116; Time 230
 Write; Address 120; Value 120; Time 231
 Write; Address 124; Value 124; Time 232
-Cache Miss0
 Write; Address 128; Value 128; Time 333
 Write; Address 132; Value 132; Time 334
 Write; Address 136; Value 136; Time 335
@@ -771,7 +744,6 @@ Write; Address 176; Value 176; Time 345
 Write; Address 180; Value 180; Time 346
 Write; Address 184; Value 184; Time 347
 Write; Address 188; Value 188; Time 348
-Cache Miss0
 Write; Address 192; Value 192; Time 449
 Write; Address 196; Value 196; Time 450
 Write; Address 200; Value 200; Time 451
@@ -788,7 +760,6 @@ Write; Address 240; Value 240; Time 461
 Write; Address 244; Value 244; Time 462
 Write; Address 248; Value 248; Time 463
 Write; Address 252; Value 252; Time 464
-Cache Miss0
 Write; Address 256; Value 256; Time 565
 Write; Address 260; Value 260; Time 566
 Write; Address 264; Value 264; Time 567
@@ -805,7 +776,6 @@ Write; Address 304; Value 304; Time 577
 Write; Address 308; Value 308; Time 578
 Write; Address 312; Value 312; Time 579
 Write; Address 316; Value 316; Time 580
-Cache Miss0
 Write; Address 320; Value 320; Time 681
 Write; Address 324; Value 324; Time 682
 Write; Address 328; Value 328; Time 683
@@ -822,7 +792,6 @@ Write; Address 368; Value 368; Time 693
 Write; Address 372; Value 372; Time 694
 Write; Address 376; Value 376; Time 695
 Write; Address 380; Value 380; Time 696
-Cache Miss0
 Write; Address 384; Value 384; Time 797
 Write; Address 388; Value 388; Time 798
 Write; Address 392; Value 392; Time 799
@@ -839,7 +808,6 @@ Write; Address 432; Value 432; Time 809
 Write; Address 436; Value 436; Time 810
 Write; Address 440; Value 440; Time 811
 Write; Address 444; Value 444; Time 812
-Cache Miss0
 Write; Address 448; Value 448; Time 913
 Write; Address 452; Value 452; Time 914
 Write; Address 456; Value 456; Time 915
@@ -856,7 +824,6 @@ Write; Address 496; Value 496; Time 925
 Write; Address 500; Value 500; Time 926
 Write; Address 504; Value 504; Time 927
 Write; Address 508; Value 508; Time 928
-Cache Miss0
 Write; Address 512; Value 512; Time 1029
 Write; Address 516; Value 516; Time 1030
 Write; Address 520; Value 520; Time 1031
@@ -873,7 +840,6 @@ Write; Address 560; Value 560; Time 1041
 Write; Address 564; Value 564; Time 1042
 Write; Address 568; Value 568; Time 1043
 Write; Address 572; Value 572; Time 1044
-Cache Miss0
 Write; Address 576; Value 576; Time 1145
 Write; Address 580; Value 580; Time 1146
 Write; Address 584; Value 584; Time 1147
@@ -890,7 +856,6 @@ Write; Address 624; Value 624; Time 1157
 Write; Address 628; Value 628; Time 1158
 Write; Address 632; Value 632; Time 1159
 Write; Address 636; Value 636; Time 1160
-Cache Miss0
 Write; Address 640; Value 640; Time 1261
 Write; Address 644; Value 644; Time 1262
 Write; Address 648; Value 648; Time 1263
@@ -907,7 +872,6 @@ Write; Address 688; Value 688; Time 1273
 Write; Address 692; Value 692; Time 1274
 Write; Address 696; Value 696; Time 1275
 Write; Address 700; Value 700; Time 1276
-Cache Miss0
 Write; Address 704; Value 704; Time 1377
 Write; Address 708; Value 708; Time 1378
 Write; Address 712; Value 712; Time 1379
@@ -924,7 +888,6 @@ Write; Address 752; Value 752; Time 1389
 Write; Address 756; Value 756; Time 1390
 Write; Address 760; Value 760; Time 1391
 Write; Address 764; Value 764; Time 1392
-Cache Miss0
 Write; Address 768; Value 768; Time 1493
 Write; Address 772; Value 772; Time 1494
 Write; Address 776; Value 776; Time 1495
@@ -941,7 +904,6 @@ Write; Address 816; Value 816; Time 1505
 Write; Address 820; Value 820; Time 1506
 Write; Address 824; Value 824; Time 1507
 Write; Address 828; Value 828; Time 1508
-Cache Miss0
 Write; Address 832; Value 832; Time 1609
 Write; Address 836; Value 836; Time 1610
 Write; Address 840; Value 840; Time 1611
@@ -958,7 +920,6 @@ Write; Address 880; Value 880; Time 1621
 Write; Address 884; Value 884; Time 1622
 Write; Address 888; Value 888; Time 1623
 Write; Address 892; Value 892; Time 1624
-Cache Miss0
 Write; Address 896; Value 896; Time 1725
 Write; Address 900; Value 900; Time 1726
 Write; Address 904; Value 904; Time 1727
@@ -975,7 +936,6 @@ Write; Address 944; Value 944; Time 1737
 Write; Address 948; Value 948; Time 1738
 Write; Address 952; Value 952; Time 1739
 Write; Address 956; Value 956; Time 1740
-Cache Miss0
 Write; Address 960; Value 960; Time 1841
 Write; Address 964; Value 964; Time 1842
 Write; Address 968; Value 968; Time 1843
@@ -992,7 +952,6 @@ Write; Address 1008; Value 1008; Time 1853
 Write; Address 1012; Value 1012; Time 1854
 Write; Address 1016; Value 1016; Time 1855
 Write; Address 1020; Value 1020; Time 1856
-Cache Miss0
 Write; Address 1024; Value 1024; Time 1957
 Write; Address 1028; Value 1028; Time 1958
 Write; Address 1032; Value 1032; Time 1959
@@ -1009,7 +968,6 @@ Write; Address 1072; Value 1072; Time 1969
 Write; Address 1076; Value 1076; Time 1970
 Write; Address 1080; Value 1080; Time 1971
 Write; Address 1084; Value 1084; Time 1972
-Cache Miss0
 Write; Address 1088; Value 1088; Time 2073
 Write; Address 1092; Value 1092; Time 2074
 Write; Address 1096; Value 1096; Time 2075
@@ -1026,7 +984,6 @@ Write; Address 1136; Value 1136; Time 2085
 Write; Address 1140; Value 1140; Time 2086
 Write; Address 1144; Value 1144; Time 2087
 Write; Address 1148; Value 1148; Time 2088
-Cache Miss0
 Write; Address 1152; Value 1152; Time 2189
 Write; Address 1156; Value 1156; Time 2190
 Write; Address 1160; Value 1160; Time 2191
@@ -1043,7 +1000,6 @@ Write; Address 1200; Value 1200; Time 2201
 Write; Address 1204; Value 1204; Time 2202
 Write; Address 1208; Value 1208; Time 2203
 Write; Address 1212; Value 1212; Time 2204
-Cache Miss0
 Write; Address 1216; Value 1216; Time 2305
 Write; Address 1220; Value 1220; Time 2306
 Write; Address 1224; Value 1224; Time 2307
@@ -1060,7 +1016,6 @@ Write; Address 1264; Value 1264; Time 2317
 Write; Address 1268; Value 1268; Time 2318
 Write; Address 1272; Value 1272; Time 2319
 Write; Address 1276; Value 1276; Time 2320
-Cache Miss0
 Write; Address 1280; Value 1280; Time 2421
 Write; Address 1284; Value 1284; Time 2422
 Write; Address 1288; Value 1288; Time 2423
@@ -1077,7 +1032,6 @@ Write; Address 1328; Value 1328; Time 2433
 Write; Address 1332; Value 1332; Time 2434
 Write; Address 1336; Value 1336; Time 2435
 Write; Address 1340; Value 1340; Time 2436
-Cache Miss0
 Write; Address 1344; Value 1344; Time 2537
 Write; Address 1348; Value 1348; Time 2538
 Write; Address 1352; Value 1352; Time 2539
@@ -1094,7 +1048,6 @@ Write; Address 1392; Value 1392; Time 2549
 Write; Address 1396; Value 1396; Time 2550
 Write; Address 1400; Value 1400; Time 2551
 Write; Address 1404; Value 1404; Time 2552
-Cache Miss0
 Write; Address 1408; Value 1408; Time 2653
 Write; Address 1412; Value 1412; Time 2654
 Write; Address 1416; Value 1416; Time 2655
@@ -1111,7 +1064,6 @@ Write; Address 1456; Value 1456; Time 2665
 Write; Address 1460; Value 1460; Time 2666
 Write; Address 1464; Value 1464; Time 2667
 Write; Address 1468; Value 1468; Time 2668
-Cache Miss0
 Write; Address 1472; Value 1472; Time 2769
 Write; Address 1476; Value 1476; Time 2770
 Write; Address 1480; Value 1480; Time 2771
@@ -1128,7 +1080,6 @@ Write; Address 1520; Value 1520; Time 2781
 Write; Address 1524; Value 1524; Time 2782
 Write; Address 1528; Value 1528; Time 2783
 Write; Address 1532; Value 1532; Time 2784
-Cache Miss0
 Write; Address 1536; Value 1536; Time 2885
 Write; Address 1540; Value 1540; Time 2886
 Write; Address 1544; Value 1544; Time 2887
@@ -1145,7 +1096,6 @@ Write; Address 1584; Value 1584; Time 2897
 Write; Address 1588; Value 1588; Time 2898
 Write; Address 1592; Value 1592; Time 2899
 Write; Address 1596; Value 1596; Time 2900
-Cache Miss0
 Write; Address 1600; Value 1600; Time 3001
 Write; Address 1604; Value 1604; Time 3002
 Write; Address 1608; Value 1608; Time 3003
@@ -1162,7 +1112,6 @@ Write; Address 1648; Value 1648; Time 3013
 Write; Address 1652; Value 1652; Time 3014
 Write; Address 1656; Value 1656; Time 3015
 Write; Address 1660; Value 1660; Time 3016
-Cache Miss0
 Write; Address 1664; Value 1664; Time 3117
 Write; Address 1668; Value 1668; Time 3118
 Write; Address 1672; Value 1672; Time 3119
@@ -1179,7 +1128,6 @@ Write; Address 1712; Value 1712; Time 3129
 Write; Address 1716; Value 1716; Time 3130
 Write; Address 1720; Value 1720; Time 3131
 Write; Address 1724; Value 1724; Time 3132
-Cache Miss0
 Write; Address 1728; Value 1728; Time 3233
 Write; Address 1732; Value 1732; Time 3234
 Write; Address 1736; Value 1736; Time 3235
@@ -1196,7 +1144,6 @@ Write; Address 1776; Value 1776; Time 3245
 Write; Address 1780; Value 1780; Time 3246
 Write; Address 1784; Value 1784; Time 3247
 Write; Address 1788; Value 1788; Time 3248
-Cache Miss0
 Write; Address 1792; Value 1792; Time 3349
 Write; Address 1796; Value 1796; Time 3350
 Write; Address 1800; Value 1800; Time 3351
@@ -1213,7 +1160,6 @@ Write; Address 1840; Value 1840; Time 3361
 Write; Address 1844; Value 1844; Time 3362
 Write; Address 1848; Value 1848; Time 3363
 Write; Address 1852; Value 1852; Time 3364
-Cache Miss0
 Write; Address 1856; Value 1856; Time 3465
 Write; Address 1860; Value 1860; Time 3466
 Write; Address 1864; Value 1864; Time 3467
@@ -1230,7 +1176,6 @@ Write; Address 1904; Value 1904; Time 3477
 Write; Address 1908; Value 1908; Time 3478
 Write; Address 1912; Value 1912; Time 3479
 Write; Address 1916; Value 1916; Time 3480
-Cache Miss0
 Write; Address 1920; Value 1920; Time 3581
 Write; Address 1924; Value 1924; Time 3582
 Write; Address 1928; Value 1928; Time 3583
@@ -1247,7 +1192,6 @@ Write; Address 1968; Value 1968; Time 3593
 Write; Address 1972; Value 1972; Time 3594
 Write; Address 1976; Value 1976; Time 3595
 Write; Address 1980; Value 1980; Time 3596
-Cache Miss0
 Write; Address 1984; Value 1984; Time 3697
 Write; Address 1988; Value 1988; Time 3698
 Write; Address 1992; Value 1992; Time 3699
@@ -1264,7 +1208,6 @@ Write; Address 2032; Value 2032; Time 3709
 Write; Address 2036; Value 2036; Time 3710
 Write; Address 2040; Value 2040; Time 3711
 Write; Address 2044; Value 2044; Time 3712
-Cache Miss0
 Write; Address 2048; Value 2048; Time 3813
 Write; Address 2052; Value 2052; Time 3814
 Write; Address 2056; Value 2056; Time 3815
@@ -1281,7 +1224,6 @@ Write; Address 2096; Value 2096; Time 3825
 Write; Address 2100; Value 2100; Time 3826
 Write; Address 2104; Value 2104; Time 3827
 Write; Address 2108; Value 2108; Time 3828
-Cache Miss0
 Write; Address 2112; Value 2112; Time 3929
 Write; Address 2116; Value 2116; Time 3930
 Write; Address 2120; Value 2120; Time 3931
@@ -1298,7 +1240,6 @@ Write; Address 2160; Value 2160; Time 3941
 Write; Address 2164; Value 2164; Time 3942
 Write; Address 2168; Value 2168; Time 3943
 Write; Address 2172; Value 2172; Time 3944
-Cache Miss0
 Write; Address 2176; Value 2176; Time 4045
 Write; Address 2180; Value 2180; Time 4046
 Write; Address 2184; Value 2184; Time 4047
@@ -1315,7 +1256,6 @@ Write; Address 2224; Value 2224; Time 4057
 Write; Address 2228; Value 2228; Time 4058
 Write; Address 2232; Value 2232; Time 4059
 Write; Address 2236; Value 2236; Time 4060
-Cache Miss0
 Write; Address 2240; Value 2240; Time 4161
 Write; Address 2244; Value 2244; Time 4162
 Write; Address 2248; Value 2248; Time 4163
@@ -1332,7 +1272,6 @@ Write; Address 2288; Value 2288; Time 4173
 Write; Address 2292; Value 2292; Time 4174
 Write; Address 2296; Value 2296; Time 4175
 Write; Address 2300; Value 2300; Time 4176
-Cache Miss0
 Write; Address 2304; Value 2304; Time 4277
 Write; Address 2308; Value 2308; Time 4278
 Write; Address 2312; Value 2312; Time 4279
@@ -1349,7 +1288,6 @@ Write; Address 2352; Value 2352; Time 4289
 Write; Address 2356; Value 2356; Time 4290
 Write; Address 2360; Value 2360; Time 4291
 Write; Address 2364; Value 2364; Time 4292
-Cache Miss0
 Write; Address 2368; Value 2368; Time 4393
 Write; Address 2372; Value 2372; Time 4394
 Write; Address 2376; Value 2376; Time 4395
@@ -1366,7 +1304,6 @@ Write; Address 2416; Value 2416; Time 4405
 Write; Address 2420; Value 2420; Time 4406
 Write; Address 2424; Value 2424; Time 4407
 Write; Address 2428; Value 2428; Time 4408
-Cache Miss0
 Write; Address 2432; Value 2432; Time 4509
 Write; Address 2436; Value 2436; Time 4510
 Write; Address 2440; Value 2440; Time 4511
@@ -1383,7 +1320,6 @@ Write; Address 2480; Value 2480; Time 4521
 Write; Address 2484; Value 2484; Time 4522
 Write; Address 2488; Value 2488; Time 4523
 Write; Address 2492; Value 2492; Time 4524
-Cache Miss0
 Write; Address 2496; Value 2496; Time 4625
 Write; Address 2500; Value 2500; Time 4626
 Write; Address 2504; Value 2504; Time 4627
@@ -1400,7 +1336,6 @@ Write; Address 2544; Value 2544; Time 4637
 Write; Address 2548; Value 2548; Time 4638
 Write; Address 2552; Value 2552; Time 4639
 Write; Address 2556; Value 2556; Time 4640
-Cache Miss0
 Write; Address 2560; Value 2560; Time 4741
 Write; Address 2564; Value 2564; Time 4742
 Write; Address 2568; Value 2568; Time 4743
@@ -1417,7 +1352,6 @@ Write; Address 2608; Value 2608; Time 4753
 Write; Address 2612; Value 2612; Time 4754
 Write; Address 2616; Value 2616; Time 4755
 Write; Address 2620; Value 2620; Time 4756
-Cache Miss0
 Write; Address 2624; Value 2624; Time 4857
 Write; Address 2628; Value 2628; Time 4858
 Write; Address 2632; Value 2632; Time 4859
@@ -1434,7 +1368,6 @@ Write; Address 2672; Value 2672; Time 4869
 Write; Address 2676; Value 2676; Time 4870
 Write; Address 2680; Value 2680; Time 4871
 Write; Address 2684; Value 2684; Time 4872
-Cache Miss0
 Write; Address 2688; Value 2688; Time 4973
 Write; Address 2692; Value 2692; Time 4974
 Write; Address 2696; Value 2696; Time 4975
@@ -1451,7 +1384,6 @@ Write; Address 2736; Value 2736; Time 4985
 Write; Address 2740; Value 2740; Time 4986
 Write; Address 2744; Value 2744; Time 4987
 Write; Address 2748; Value 2748; Time 4988
-Cache Miss0
 Write; Address 2752; Value 2752; Time 5089
 Write; Address 2756; Value 2756; Time 5090
 Write; Address 2760; Value 2760; Time 5091
@@ -1468,7 +1400,6 @@ Write; Address 2800; Value 2800; Time 5101
 Write; Address 2804; Value 2804; Time 5102
 Write; Address 2808; Value 2808; Time 5103
 Write; Address 2812; Value 2812; Time 5104
-Cache Miss0
 Write; Address 2816; Value 2816; Time 5205
 Write; Address 2820; Value 2820; Time 5206
 Write; Address 2824; Value 2824; Time 5207
@@ -1485,7 +1416,6 @@ Write; Address 2864; Value 2864; Time 5217
 Write; Address 2868; Value 2868; Time 5218
 Write; Address 2872; Value 2872; Time 5219
 Write; Address 2876; Value 2876; Time 5220
-Cache Miss0
 Write; Address 2880; Value 2880; Time 5321
 Write; Address 2884; Value 2884; Time 5322
 Write; Address 2888; Value 2888; Time 5323
@@ -1502,7 +1432,6 @@ Write; Address 2928; Value 2928; Time 5333
 Write; Address 2932; Value 2932; Time 5334
 Write; Address 2936; Value 2936; Time 5335
 Write; Address 2940; Value 2940; Time 5336
-Cache Miss0
 Write; Address 2944; Value 2944; Time 5437
 Write; Address 2948; Value 2948; Time 5438
 Write; Address 2952; Value 2952; Time 5439
@@ -1519,7 +1448,6 @@ Write; Address 2992; Value 2992; Time 5449
 Write; Address 2996; Value 2996; Time 5450
 Write; Address 3000; Value 3000; Time 5451
 Write; Address 3004; Value 3004; Time 5452
-Cache Miss0
 Write; Address 3008; Value 3008; Time 5553
 Write; Address 3012; Value 3012; Time 5554
 Write; Address 3016; Value 3016; Time 5555
@@ -1536,7 +1464,6 @@ Write; Address 3056; Value 3056; Time 5565
 Write; Address 3060; Value 3060; Time 5566
 Write; Address 3064; Value 3064; Time 5567
 Write; Address 3068; Value 3068; Time 5568
-Cache Miss0
 Write; Address 3072; Value 3072; Time 5669
 Write; Address 3076; Value 3076; Time 5670
 Write; Address 3080; Value 3080; Time 5671
@@ -1553,7 +1480,6 @@ Write; Address 3120; Value 3120; Time 5681
 Write; Address 3124; Value 3124; Time 5682
 Write; Address 3128; Value 3128; Time 5683
 Write; Address 3132; Value 3132; Time 5684
-Cache Miss0
 Write; Address 3136; Value 3136; Time 5785
 Write; Address 3140; Value 3140; Time 5786
 Write; Address 3144; Value 3144; Time 5787
@@ -1570,7 +1496,6 @@ Write; Address 3184; Value 3184; Time 5797
 Write; Address 3188; Value 3188; Time 5798
 Write; Address 3192; Value 3192; Time 5799
 Write; Address 3196; Value 3196; Time 5800
-Cache Miss0
 Write; Address 3200; Value 3200; Time 5901
 Write; Address 3204; Value 3204; Time 5902
 Write; Address 3208; Value 3208; Time 5903
@@ -1587,7 +1512,6 @@ Write; Address 3248; Value 3248; Time 5913
 Write; Address 3252; Value 3252; Time 5914
 Write; Address 3256; Value 3256; Time 5915
 Write; Address 3260; Value 3260; Time 5916
-Cache Miss0
 Write; Address 3264; Value 3264; Time 6017
 Write; Address 3268; Value 3268; Time 6018
 Write; Address 3272; Value 3272; Time 6019
@@ -1604,7 +1528,6 @@ Write; Address 3312; Value 3312; Time 6029
 Write; Address 3316; Value 3316; Time 6030
 Write; Address 3320; Value 3320; Time 6031
 Write; Address 3324; Value 3324; Time 6032
-Cache Miss0
 Write; Address 3328; Value 3328; Time 6133
 Write; Address 3332; Value 3332; Time 6134
 Write; Address 3336; Value 3336; Time 6135
@@ -1621,7 +1544,6 @@ Write; Address 3376; Value 3376; Time 6145
 Write; Address 3380; Value 3380; Time 6146
 Write; Address 3384; Value 3384; Time 6147
 Write; Address 3388; Value 3388; Time 6148
-Cache Miss0
 Write; Address 3392; Value 3392; Time 6249
 Write; Address 3396; Value 3396; Time 6250
 Write; Address 3400; Value 3400; Time 6251
@@ -1638,7 +1560,6 @@ Write; Address 3440; Value 3440; Time 6261
 Write; Address 3444; Value 3444; Time 6262
 Write; Address 3448; Value 3448; Time 6263
 Write; Address 3452; Value 3452; Time 6264
-Cache Miss0
 Write; Address 3456; Value 3456; Time 6365
 Write; Address 3460; Value 3460; Time 6366
 Write; Address 3464; Value 3464; Time 6367
@@ -1655,7 +1576,6 @@ Write; Address 3504; Value 3504; Time 6377
 Write; Address 3508; Value 3508; Time 6378
 Write; Address 3512; Value 3512; Time 6379
 Write; Address 3516; Value 3516; Time 6380
-Cache Miss0
 Write; Address 3520; Value 3520; Time 6481
 Write; Address 3524; Value 3524; Time 6482
 Write; Address 3528; Value 3528; Time 6483
@@ -1672,7 +1592,6 @@ Write; Address 3568; Value 3568; Time 6493
 Write; Address 3572; Value 3572; Time 6494
 Write; Address 3576; Value 3576; Time 6495
 Write; Address 3580; Value 3580; Time 6496
-Cache Miss0
 Write; Address 3584; Value 3584; Time 6597
 Write; Address 3588; Value 3588; Time 6598
 Write; Address 3592; Value 3592; Time 6599
@@ -1689,7 +1608,6 @@ Write; Address 3632; Value 3632; Time 6609
 Write; Address 3636; Value 3636; Time 6610
 Write; Address 3640; Value 3640; Time 6611
 Write; Address 3644; Value 3644; Time 6612
-Cache Miss0
 Write; Address 3648; Value 3648; Time 6713
 Write; Address 3652; Value 3652; Time 6714
 Write; Address 3656; Value 3656; Time 6715
@@ -1706,7 +1624,6 @@ Write; Address 3696; Value 3696; Time 6725
 Write; Address 3700; Value 3700; Time 6726
 Write; Address 3704; Value 3704; Time 6727
 Write; Address 3708; Value 3708; Time 6728
-Cache Miss0
 Write; Address 3712; Value 3712; Time 6829
 Write; Address 3716; Value 3716; Time 6830
 Write; Address 3720; Value 3720; Time 6831
@@ -1723,7 +1640,6 @@ Write; Address 3760; Value 3760; Time 6841
 Write; Address 3764; Value 3764; Time 6842
 Write; Address 3768; Value 3768; Time 6843
 Write; Address 3772; Value 3772; Time 6844
-Cache Miss0
 Write; Address 3776; Value 3776; Time 6945
 Write; Address 3780; Value 3780; Time 6946
 Write; Address 3784; Value 3784; Time 6947
@@ -1740,7 +1656,6 @@ Write; Address 3824; Value 3824; Time 6957
 Write; Address 3828; Value 3828; Time 6958
 Write; Address 3832; Value 3832; Time 6959
 Write; Address 3836; Value 3836; Time 6960
-Cache Miss0
 Write; Address 3840; Value 3840; Time 7061
 Write; Address 3844; Value 3844; Time 7062
 Write; Address 3848; Value 3848; Time 7063
@@ -1757,7 +1672,6 @@ Write; Address 3888; Value 3888; Time 7073
 Write; Address 3892; Value 3892; Time 7074
 Write; Address 3896; Value 3896; Time 7075
 Write; Address 3900; Value 3900; Time 7076
-Cache Miss0
 Write; Address 3904; Value 3904; Time 7177
 Write; Address 3908; Value 3908; Time 7178
 Write; Address 3912; Value 3912; Time 7179
@@ -1774,7 +1688,6 @@ Write; Address 3952; Value 3952; Time 7189
 Write; Address 3956; Value 3956; Time 7190
 Write; Address 3960; Value 3960; Time 7191
 Write; Address 3964; Value 3964; Time 7192
-Cache Miss0
 Write; Address 3968; Value 3968; Time 7293
 Write; Address 3972; Value 3972; Time 7294
 Write; Address 3976; Value 3976; Time 7295
@@ -1791,7 +1704,6 @@ Write; Address 4016; Value 4016; Time 7305
 Write; Address 4020; Value 4020; Time 7306
 Write; Address 4024; Value 4024; Time 7307
 Write; Address 4028; Value 4028; Time 7308
-Cache Miss0
 Write; Address 4032; Value 4032; Time 7409
 Write; Address 4036; Value 4036; Time 7410
 Write; Address 4040; Value 4040; Time 7411
@@ -2834,7 +2746,6 @@ Read; Address 4088; Value 4088; Time 8447
 Read; Address 4092; Value 4092; Time 8448
 
 Number of words: 4096
-Cache Miss0
 Write; Address 0; Value 0; Time 101
 Write; Address 4; Value 4; Time 102
 Write; Address 8; Value 8; Time 103
@@ -2851,7 +2762,6 @@ Write; Address 48; Value 48; Time 113
 Write; Address 52; Value 52; Time 114
 Write; Address 56; Value 56; Time 115
 Write; Address 60; Value 60; Time 116
-Cache Miss0
 Write; Address 64; Value 64; Time 217
 Write; Address 68; Value 68; Time 218
 Write; Address 72; Value 72; Time 219
@@ -2868,7 +2778,6 @@ Write; Address 112; Value 112; Time 229
 Write; Address 116; Value 116; Time 230
 Write; Address 120; Value 120; Time 231
 Write; Address 124; Value 124; Time 232
-Cache Miss0
 Write; Address 128; Value 128; Time 333
 Write; Address 132; Value 132; Time 334
 Write; Address 136; Value 136; Time 335
@@ -2885,7 +2794,6 @@ Write; Address 176; Value 176; Time 345
 Write; Address 180; Value 180; Time 346
 Write; Address 184; Value 184; Time 347
 Write; Address 188; Value 188; Time 348
-Cache Miss0
 Write; Address 192; Value 192; Time 449
 Write; Address 196; Value 196; Time 450
 Write; Address 200; Value 200; Time 451
@@ -2902,7 +2810,6 @@ Write; Address 240; Value 240; Time 461
 Write; Address 244; Value 244; Time 462
 Write; Address 248; Value 248; Time 463
 Write; Address 252; Value 252; Time 464
-Cache Miss0
 Write; Address 256; Value 256; Time 565
 Write; Address 260; Value 260; Time 566
 Write; Address 264; Value 264; Time 567
@@ -2919,7 +2826,6 @@ Write; Address 304; Value 304; Time 577
 Write; Address 308; Value 308; Time 578
 Write; Address 312; Value 312; Time 579
 Write; Address 316; Value 316; Time 580
-Cache Miss0
 Write; Address 320; Value 320; Time 681
 Write; Address 324; Value 324; Time 682
 Write; Address 328; Value 328; Time 683
@@ -2936,7 +2842,6 @@ Write; Address 368; Value 368; Time 693
 Write; Address 372; Value 372; Time 694
 Write; Address 376; Value 376; Time 695
 Write; Address 380; Value 380; Time 696
-Cache Miss0
 Write; Address 384; Value 384; Time 797
 Write; Address 388; Value 388; Time 798
 Write; Address 392; Value 392; Time 799
@@ -2953,7 +2858,6 @@ Write; Address 432; Value 432; Time 809
 Write; Address 436; Value 436; Time 810
 Write; Address 440; Value 440; Time 811
 Write; Address 444; Value 444; Time 812
-Cache Miss0
 Write; Address 448; Value 448; Time 913
 Write; Address 452; Value 452; Time 914
 Write; Address 456; Value 456; Time 915
@@ -2970,7 +2874,6 @@ Write; Address 496; Value 496; Time 925
 Write; Address 500; Value 500; Time 926
 Write; Address 504; Value 504; Time 927
 Write; Address 508; Value 508; Time 928
-Cache Miss0
 Write; Address 512; Value 512; Time 1029
 Write; Address 516; Value 516; Time 1030
 Write; Address 520; Value 520; Time 1031
@@ -2987,7 +2890,6 @@ Write; Address 560; Value 560; Time 1041
 Write; Address 564; Value 564; Time 1042
 Write; Address 568; Value 568; Time 1043
 Write; Address 572; Value 572; Time 1044
-Cache Miss0
 Write; Address 576; Value 576; Time 1145
 Write; Address 580; Value 580; Time 1146
 Write; Address 584; Value 584; Time 1147
@@ -3004,7 +2906,6 @@ Write; Address 624; Value 624; Time 1157
 Write; Address 628; Value 628; Time 1158
 Write; Address 632; Value 632; Time 1159
 Write; Address 636; Value 636; Time 1160
-Cache Miss0
 Write; Address 640; Value 640; Time 1261
 Write; Address 644; Value 644; Time 1262
 Write; Address 648; Value 648; Time 1263
@@ -3021,7 +2922,6 @@ Write; Address 688; Value 688; Time 1273
 Write; Address 692; Value 692; Time 1274
 Write; Address 696; Value 696; Time 1275
 Write; Address 700; Value 700; Time 1276
-Cache Miss0
 Write; Address 704; Value 704; Time 1377
 Write; Address 708; Value 708; Time 1378
 Write; Address 712; Value 712; Time 1379
@@ -3038,7 +2938,6 @@ Write; Address 752; Value 752; Time 1389
 Write; Address 756; Value 756; Time 1390
 Write; Address 760; Value 760; Time 1391
 Write; Address 764; Value 764; Time 1392
-Cache Miss0
 Write; Address 768; Value 768; Time 1493
 Write; Address 772; Value 772; Time 1494
 Write; Address 776; Value 776; Time 1495
@@ -3055,7 +2954,6 @@ Write; Address 816; Value 816; Time 1505
 Write; Address 820; Value 820; Time 1506
 Write; Address 824; Value 824; Time 1507
 Write; Address 828; Value 828; Time 1508
-Cache Miss0
 Write; Address 832; Value 832; Time 1609
 Write; Address 836; Value 836; Time 1610
 Write; Address 840; Value 840; Time 1611
@@ -3072,7 +2970,6 @@ Write; Address 880; Value 880; Time 1621
 Write; Address 884; Value 884; Time 1622
 Write; Address 888; Value 888; Time 1623
 Write; Address 892; Value 892; Time 1624
-Cache Miss0
 Write; Address 896; Value 896; Time 1725
 Write; Address 900; Value 900; Time 1726
 Write; Address 904; Value 904; Time 1727
@@ -3089,7 +2986,6 @@ Write; Address 944; Value 944; Time 1737
 Write; Address 948; Value 948; Time 1738
 Write; Address 952; Value 952; Time 1739
 Write; Address 956; Value 956; Time 1740
-Cache Miss0
 Write; Address 960; Value 960; Time 1841
 Write; Address 964; Value 964; Time 1842
 Write; Address 968; Value 968; Time 1843
@@ -3106,7 +3002,6 @@ Write; Address 1008; Value 1008; Time 1853
 Write; Address 1012; Value 1012; Time 1854
 Write; Address 1016; Value 1016; Time 1855
 Write; Address 1020; Value 1020; Time 1856
-Cache Miss0
 Write; Address 1024; Value 1024; Time 1957
 Write; Address 1028; Value 1028; Time 1958
 Write; Address 1032; Value 1032; Time 1959
@@ -3123,7 +3018,6 @@ Write; Address 1072; Value 1072; Time 1969
 Write; Address 1076; Value 1076; Time 1970
 Write; Address 1080; Value 1080; Time 1971
 Write; Address 1084; Value 1084; Time 1972
-Cache Miss0
 Write; Address 1088; Value 1088; Time 2073
 Write; Address 1092; Value 1092; Time 2074
 Write; Address 1096; Value 1096; Time 2075
@@ -3140,7 +3034,6 @@ Write; Address 1136; Value 1136; Time 2085
 Write; Address 1140; Value 1140; Time 2086
 Write; Address 1144; Value 1144; Time 2087
 Write; Address 1148; Value 1148; Time 2088
-Cache Miss0
 Write; Address 1152; Value 1152; Time 2189
 Write; Address 1156; Value 1156; Time 2190
 Write; Address 1160; Value 1160; Time 2191
@@ -3157,7 +3050,6 @@ Write; Address 1200; Value 1200; Time 2201
 Write; Address 1204; Value 1204; Time 2202
 Write; Address 1208; Value 1208; Time 2203
 Write; Address 1212; Value 1212; Time 2204
-Cache Miss0
 Write; Address 1216; Value 1216; Time 2305
 Write; Address 1220; Value 1220; Time 2306
 Write; Address 1224; Value 1224; Time 2307
@@ -3174,7 +3066,6 @@ Write; Address 1264; Value 1264; Time 2317
 Write; Address 1268; Value 1268; Time 2318
 Write; Address 1272; Value 1272; Time 2319
 Write; Address 1276; Value 1276; Time 2320
-Cache Miss0
 Write; Address 1280; Value 1280; Time 2421
 Write; Address 1284; Value 1284; Time 2422
 Write; Address 1288; Value 1288; Time 2423
@@ -3191,7 +3082,6 @@ Write; Address 1328; Value 1328; Time 2433
 Write; Address 1332; Value 1332; Time 2434
 Write; Address 1336; Value 1336; Time 2435
 Write; Address 1340; Value 1340; Time 2436
-Cache Miss0
 Write; Address 1344; Value 1344; Time 2537
 Write; Address 1348; Value 1348; Time 2538
 Write; Address 1352; Value 1352; Time 2539
@@ -3208,7 +3098,6 @@ Write; Address 1392; Value 1392; Time 2549
 Write; Address 1396; Value 1396; Time 2550
 Write; Address 1400; Value 1400; Time 2551
 Write; Address 1404; Value 1404; Time 2552
-Cache Miss0
 Write; Address 1408; Value 1408; Time 2653
 Write; Address 1412; Value 1412; Time 2654
 Write; Address 1416; Value 1416; Time 2655
@@ -3225,7 +3114,6 @@ Write; Address 1456; Value 1456; Time 2665
 Write; Address 1460; Value 1460; Time 2666
 Write; Address 1464; Value 1464; Time 2667
 Write; Address 1468; Value 1468; Time 2668
-Cache Miss0
 Write; Address 1472; Value 1472; Time 2769
 Write; Address 1476; Value 1476; Time 2770
 Write; Address 1480; Value 1480; Time 2771
@@ -3242,7 +3130,6 @@ Write; Address 1520; Value 1520; Time 2781
 Write; Address 1524; Value 1524; Time 2782
 Write; Address 1528; Value 1528; Time 2783
 Write; Address 1532; Value 1532; Time 2784
-Cache Miss0
 Write; Address 1536; Value 1536; Time 2885
 Write; Address 1540; Value 1540; Time 2886
 Write; Address 1544; Value 1544; Time 2887
@@ -3259,7 +3146,6 @@ Write; Address 1584; Value 1584; Time 2897
 Write; Address 1588; Value 1588; Time 2898
 Write; Address 1592; Value 1592; Time 2899
 Write; Address 1596; Value 1596; Time 2900
-Cache Miss0
 Write; Address 1600; Value 1600; Time 3001
 Write; Address 1604; Value 1604; Time 3002
 Write; Address 1608; Value 1608; Time 3003
@@ -3276,7 +3162,6 @@ Write; Address 1648; Value 1648; Time 3013
 Write; Address 1652; Value 1652; Time 3014
 Write; Address 1656; Value 1656; Time 3015
 Write; Address 1660; Value 1660; Time 3016
-Cache Miss0
 Write; Address 1664; Value 1664; Time 3117
 Write; Address 1668; Value 1668; Time 3118
 Write; Address 1672; Value 1672; Time 3119
@@ -3293,7 +3178,6 @@ Write; Address 1712; Value 1712; Time 3129
 Write; Address 1716; Value 1716; Time 3130
 Write; Address 1720; Value 1720; Time 3131
 Write; Address 1724; Value 1724; Time 3132
-Cache Miss0
 Write; Address 1728; Value 1728; Time 3233
 Write; Address 1732; Value 1732; Time 3234
 Write; Address 1736; Value 1736; Time 3235
@@ -3310,7 +3194,6 @@ Write; Address 1776; Value 1776; Time 3245
 Write; Address 1780; Value 1780; Time 3246
 Write; Address 1784; Value 1784; Time 3247
 Write; Address 1788; Value 1788; Time 3248
-Cache Miss0
 Write; Address 1792; Value 1792; Time 3349
 Write; Address 1796; Value 1796; Time 3350
 Write; Address 1800; Value 1800; Time 3351
@@ -3327,7 +3210,6 @@ Write; Address 1840; Value 1840; Time 3361
 Write; Address 1844; Value 1844; Time 3362
 Write; Address 1848; Value 1848; Time 3363
 Write; Address 1852; Value 1852; Time 3364
-Cache Miss0
 Write; Address 1856; Value 1856; Time 3465
 Write; Address 1860; Value 1860; Time 3466
 Write; Address 1864; Value 1864; Time 3467
@@ -3344,7 +3226,6 @@ Write; Address 1904; Value 1904; Time 3477
 Write; Address 1908; Value 1908; Time 3478
 Write; Address 1912; Value 1912; Time 3479
 Write; Address 1916; Value 1916; Time 3480
-Cache Miss0
 Write; Address 1920; Value 1920; Time 3581
 Write; Address 1924; Value 1924; Time 3582
 Write; Address 1928; Value 1928; Time 3583
@@ -3361,7 +3242,6 @@ Write; Address 1968; Value 1968; Time 3593
 Write; Address 1972; Value 1972; Time 3594
 Write; Address 1976; Value 1976; Time 3595
 Write; Address 1980; Value 1980; Time 3596
-Cache Miss0
 Write; Address 1984; Value 1984; Time 3697
 Write; Address 1988; Value 1988; Time 3698
 Write; Address 1992; Value 1992; Time 3699
@@ -3378,7 +3258,6 @@ Write; Address 2032; Value 2032; Time 3709
 Write; Address 2036; Value 2036; Time 3710
 Write; Address 2040; Value 2040; Time 3711
 Write; Address 2044; Value 2044; Time 3712
-Cache Miss0
 Write; Address 2048; Value 2048; Time 3813
 Write; Address 2052; Value 2052; Time 3814
 Write; Address 2056; Value 2056; Time 3815
@@ -3395,7 +3274,6 @@ Write; Address 2096; Value 2096; Time 3825
 Write; Address 2100; Value 2100; Time 3826
 Write; Address 2104; Value 2104; Time 3827
 Write; Address 2108; Value 2108; Time 3828
-Cache Miss0
 Write; Address 2112; Value 2112; Time 3929
 Write; Address 2116; Value 2116; Time 3930
 Write; Address 2120; Value 2120; Time 3931
@@ -3412,7 +3290,6 @@ Write; Address 2160; Value 2160; Time 3941
 Write; Address 2164; Value 2164; Time 3942
 Write; Address 2168; Value 2168; Time 3943
 Write; Address 2172; Value 2172; Time 3944
-Cache Miss0
 Write; Address 2176; Value 2176; Time 4045
 Write; Address 2180; Value 2180; Time 4046
 Write; Address 2184; Value 2184; Time 4047
@@ -3429,7 +3306,6 @@ Write; Address 2224; Value 2224; Time 4057
 Write; Address 2228; Value 2228; Time 4058
 Write; Address 2232; Value 2232; Time 4059
 Write; Address 2236; Value 2236; Time 4060
-Cache Miss0
 Write; Address 2240; Value 2240; Time 4161
 Write; Address 2244; Value 2244; Time 4162
 Write; Address 2248; Value 2248; Time 4163
@@ -3446,7 +3322,6 @@ Write; Address 2288; Value 2288; Time 4173
 Write; Address 2292; Value 2292; Time 4174
 Write; Address 2296; Value 2296; Time 4175
 Write; Address 2300; Value 2300; Time 4176
-Cache Miss0
 Write; Address 2304; Value 2304; Time 4277
 Write; Address 2308; Value 2308; Time 4278
 Write; Address 2312; Value 2312; Time 4279
@@ -3463,7 +3338,6 @@ Write; Address 2352; Value 2352; Time 4289
 Write; Address 2356; Value 2356; Time 4290
 Write; Address 2360; Value 2360; Time 4291
 Write; Address 2364; Value 2364; Time 4292
-Cache Miss0
 Write; Address 2368; Value 2368; Time 4393
 Write; Address 2372; Value 2372; Time 4394
 Write; Address 2376; Value 2376; Time 4395
@@ -3480,7 +3354,6 @@ Write; Address 2416; Value 2416; Time 4405
 Write; Address 2420; Value 2420; Time 4406
 Write; Address 2424; Value 2424; Time 4407
 Write; Address 2428; Value 2428; Time 4408
-Cache Miss0
 Write; Address 2432; Value 2432; Time 4509
 Write; Address 2436; Value 2436; Time 4510
 Write; Address 2440; Value 2440; Time 4511
@@ -3497,7 +3370,6 @@ Write; Address 2480; Value 2480; Time 4521
 Write; Address 2484; Value 2484; Time 4522
 Write; Address 2488; Value 2488; Time 4523
 Write; Address 2492; Value 2492; Time 4524
-Cache Miss0
 Write; Address 2496; Value 2496; Time 4625
 Write; Address 2500; Value 2500; Time 4626
 Write; Address 2504; Value 2504; Time 4627
@@ -3514,7 +3386,6 @@ Write; Address 2544; Value 2544; Time 4637
 Write; Address 2548; Value 2548; Time 4638
 Write; Address 2552; Value 2552; Time 4639
 Write; Address 2556; Value 2556; Time 4640
-Cache Miss0
 Write; Address 2560; Value 2560; Time 4741
 Write; Address 2564; Value 2564; Time 4742
 Write; Address 2568; Value 2568; Time 4743
@@ -3531,7 +3402,6 @@ Write; Address 2608; Value 2608; Time 4753
 Write; Address 2612; Value 2612; Time 4754
 Write; Address 2616; Value 2616; Time 4755
 Write; Address 2620; Value 2620; Time 4756
-Cache Miss0
 Write; Address 2624; Value 2624; Time 4857
 Write; Address 2628; Value 2628; Time 4858
 Write; Address 2632; Value 2632; Time 4859
@@ -3548,7 +3418,6 @@ Write; Address 2672; Value 2672; Time 4869
 Write; Address 2676; Value 2676; Time 4870
 Write; Address 2680; Value 2680; Time 4871
 Write; Address 2684; Value 2684; Time 4872
-Cache Miss0
 Write; Address 2688; Value 2688; Time 4973
 Write; Address 2692; Value 2692; Time 4974
 Write; Address 2696; Value 2696; Time 4975
@@ -3565,7 +3434,6 @@ Write; Address 2736; Value 2736; Time 4985
 Write; Address 2740; Value 2740; Time 4986
 Write; Address 2744; Value 2744; Time 4987
 Write; Address 2748; Value 2748; Time 4988
-Cache Miss0
 Write; Address 2752; Value 2752; Time 5089
 Write; Address 2756; Value 2756; Time 5090
 Write; Address 2760; Value 2760; Time 5091
@@ -3582,7 +3450,6 @@ Write; Address 2800; Value 2800; Time 5101
 Write; Address 2804; Value 2804; Time 5102
 Write; Address 2808; Value 2808; Time 5103
 Write; Address 2812; Value 2812; Time 5104
-Cache Miss0
 Write; Address 2816; Value 2816; Time 5205
 Write; Address 2820; Value 2820; Time 5206
 Write; Address 2824; Value 2824; Time 5207
@@ -3599,7 +3466,6 @@ Write; Address 2864; Value 2864; Time 5217
 Write; Address 2868; Value 2868; Time 5218
 Write; Address 2872; Value 2872; Time 5219
 Write; Address 2876; Value 2876; Time 5220
-Cache Miss0
 Write; Address 2880; Value 2880; Time 5321
 Write; Address 2884; Value 2884; Time 5322
 Write; Address 2888; Value 2888; Time 5323
@@ -3616,7 +3482,6 @@ Write; Address 2928; Value 2928; Time 5333
 Write; Address 2932; Value 2932; Time 5334
 Write; Address 2936; Value 2936; Time 5335
 Write; Address 2940; Value 2940; Time 5336
-Cache Miss0
 Write; Address 2944; Value 2944; Time 5437
 Write; Address 2948; Value 2948; Time 5438
 Write; Address 2952; Value 2952; Time 5439
@@ -3633,7 +3498,6 @@ Write; Address 2992; Value 2992; Time 5449
 Write; Address 2996; Value 2996; Time 5450
 Write; Address 3000; Value 3000; Time 5451
 Write; Address 3004; Value 3004; Time 5452
-Cache Miss0
 Write; Address 3008; Value 3008; Time 5553
 Write; Address 3012; Value 3012; Time 5554
 Write; Address 3016; Value 3016; Time 5555
@@ -3650,7 +3514,6 @@ Write; Address 3056; Value 3056; Time 5565
 Write; Address 3060; Value 3060; Time 5566
 Write; Address 3064; Value 3064; Time 5567
 Write; Address 3068; Value 3068; Time 5568
-Cache Miss0
 Write; Address 3072; Value 3072; Time 5669
 Write; Address 3076; Value 3076; Time 5670
 Write; Address 3080; Value 3080; Time 5671
@@ -3667,7 +3530,6 @@ Write; Address 3120; Value 3120; Time 5681
 Write; Address 3124; Value 3124; Time 5682
 Write; Address 3128; Value 3128; Time 5683
 Write; Address 3132; Value 3132; Time 5684
-Cache Miss0
 Write; Address 3136; Value 3136; Time 5785
 Write; Address 3140; Value 3140; Time 5786
 Write; Address 3144; Value 3144; Time 5787
@@ -3684,7 +3546,6 @@ Write; Address 3184; Value 3184; Time 5797
 Write; Address 3188; Value 3188; Time 5798
 Write; Address 3192; Value 3192; Time 5799
 Write; Address 3196; Value 3196; Time 5800
-Cache Miss0
 Write; Address 3200; Value 3200; Time 5901
 Write; Address 3204; Value 3204; Time 5902
 Write; Address 3208; Value 3208; Time 5903
@@ -3701,7 +3562,6 @@ Write; Address 3248; Value 3248; Time 5913
 Write; Address 3252; Value 3252; Time 5914
 Write; Address 3256; Value 3256; Time 5915
 Write; Address 3260; Value 3260; Time 5916
-Cache Miss0
 Write; Address 3264; Value 3264; Time 6017
 Write; Address 3268; Value 3268; Time 6018
 Write; Address 3272; Value 3272; Time 6019
@@ -3718,7 +3578,6 @@ Write; Address 3312; Value 3312; Time 6029
 Write; Address 3316; Value 3316; Time 6030
 Write; Address 3320; Value 3320; Time 6031
 Write; Address 3324; Value 3324; Time 6032
-Cache Miss0
 Write; Address 3328; Value 3328; Time 6133
 Write; Address 3332; Value 3332; Time 6134
 Write; Address 3336; Value 3336; Time 6135
@@ -3735,7 +3594,6 @@ Write; Address 3376; Value 3376; Time 6145
 Write; Address 3380; Value 3380; Time 6146
 Write; Address 3384; Value 3384; Time 6147
 Write; Address 3388; Value 3388; Time 6148
-Cache Miss0
 Write; Address 3392; Value 3392; Time 6249
 Write; Address 3396; Value 3396; Time 6250
 Write; Address 3400; Value 3400; Time 6251
@@ -3752,7 +3610,6 @@ Write; Address 3440; Value 3440; Time 6261
 Write; Address 3444; Value 3444; Time 6262
 Write; Address 3448; Value 3448; Time 6263
 Write; Address 3452; Value 3452; Time 6264
-Cache Miss0
 Write; Address 3456; Value 3456; Time 6365
 Write; Address 3460; Value 3460; Time 6366
 Write; Address 3464; Value 3464; Time 6367
@@ -3769,7 +3626,6 @@ Write; Address 3504; Value 3504; Time 6377
 Write; Address 3508; Value 3508; Time 6378
 Write; Address 3512; Value 3512; Time 6379
 Write; Address 3516; Value 3516; Time 6380
-Cache Miss0
 Write; Address 3520; Value 3520; Time 6481
 Write; Address 3524; Value 3524; Time 6482
 Write; Address 3528; Value 3528; Time 6483
@@ -3786,7 +3642,6 @@ Write; Address 3568; Value 3568; Time 6493
 Write; Address 3572; Value 3572; Time 6494
 Write; Address 3576; Value 3576; Time 6495
 Write; Address 3580; Value 3580; Time 6496
-Cache Miss0
 Write; Address 3584; Value 3584; Time 6597
 Write; Address 3588; Value 3588; Time 6598
 Write; Address 3592; Value 3592; Time 6599
@@ -3803,7 +3658,6 @@ Write; Address 3632; Value 3632; Time 6609
 Write; Address 3636; Value 3636; Time 6610
 Write; Address 3640; Value 3640; Time 6611
 Write; Address 3644; Value 3644; Time 6612
-Cache Miss0
 Write; Address 3648; Value 3648; Time 6713
 Write; Address 3652; Value 3652; Time 6714
 Write; Address 3656; Value 3656; Time 6715
@@ -3820,7 +3674,6 @@ Write; Address 3696; Value 3696; Time 6725
 Write; Address 3700; Value 3700; Time 6726
 Write; Address 3704; Value 3704; Time 6727
 Write; Address 3708; Value 3708; Time 6728
-Cache Miss0
 Write; Address 3712; Value 3712; Time 6829
 Write; Address 3716; Value 3716; Time 6830
 Write; Address 3720; Value 3720; Time 6831
@@ -3837,7 +3690,6 @@ Write; Address 3760; Value 3760; Time 6841
 Write; Address 3764; Value 3764; Time 6842
 Write; Address 3768; Value 3768; Time 6843
 Write; Address 3772; Value 3772; Time 6844
-Cache Miss0
 Write; Address 3776; Value 3776; Time 6945
 Write; Address 3780; Value 3780; Time 6946
 Write; Address 3784; Value 3784; Time 6947
@@ -3854,7 +3706,6 @@ Write; Address 3824; Value 3824; Time 6957
 Write; Address 3828; Value 3828; Time 6958
 Write; Address 3832; Value 3832; Time 6959
 Write; Address 3836; Value 3836; Time 6960
-Cache Miss0
 Write; Address 3840; Value 3840; Time 7061
 Write; Address 3844; Value 3844; Time 7062
 Write; Address 3848; Value 3848; Time 7063
@@ -3871,7 +3722,6 @@ Write; Address 3888; Value 3888; Time 7073
 Write; Address 3892; Value 3892; Time 7074
 Write; Address 3896; Value 3896; Time 7075
 Write; Address 3900; Value 3900; Time 7076
-Cache Miss0
 Write; Address 3904; Value 3904; Time 7177
 Write; Address 3908; Value 3908; Time 7178
 Write; Address 3912; Value 3912; Time 7179
@@ -3888,7 +3738,6 @@ Write; Address 3952; Value 3952; Time 7189
 Write; Address 3956; Value 3956; Time 7190
 Write; Address 3960; Value 3960; Time 7191
 Write; Address 3964; Value 3964; Time 7192
-Cache Miss0
 Write; Address 3968; Value 3968; Time 7293
 Write; Address 3972; Value 3972; Time 7294
 Write; Address 3976; Value 3976; Time 7295
@@ -3905,7 +3754,6 @@ Write; Address 4016; Value 4016; Time 7305
 Write; Address 4020; Value 4020; Time 7306
 Write; Address 4024; Value 4024; Time 7307
 Write; Address 4028; Value 4028; Time 7308
-Cache Miss0
 Write; Address 4032; Value 4032; Time 7409
 Write; Address 4036; Value 4036; Time 7410
 Write; Address 4040; Value 4040; Time 7411
@@ -3922,7 +3770,6 @@ Write; Address 4080; Value 4080; Time 7421
 Write; Address 4084; Value 4084; Time 7422
 Write; Address 4088; Value 4088; Time 7423
 Write; Address 4092; Value 4092; Time 7424
-Cache Miss0
 Write; Address 4096; Value 4096; Time 7525
 Write; Address 4100; Value 4100; Time 7526
 Write; Address 4104; Value 4104; Time 7527
@@ -3939,7 +3786,6 @@ Write; Address 4144; Value 4144; Time 7537
 Write; Address 4148; Value 4148; Time 7538
 Write; Address 4152; Value 4152; Time 7539
 Write; Address 4156; Value 4156; Time 7540
-Cache Miss0
 Write; Address 4160; Value 4160; Time 7641
 Write; Address 4164; Value 4164; Time 7642
 Write; Address 4168; Value 4168; Time 7643
@@ -3956,7 +3802,6 @@ Write; Address 4208; Value 4208; Time 7653
 Write; Address 4212; Value 4212; Time 7654
 Write; Address 4216; Value 4216; Time 7655
 Write; Address 4220; Value 4220; Time 7656
-Cache Miss0
 Write; Address 4224; Value 4224; Time 7757
 Write; Address 4228; Value 4228; Time 7758
 Write; Address 4232; Value 4232; Time 7759
@@ -3973,7 +3818,6 @@ Write; Address 4272; Value 4272; Time 7769
 Write; Address 4276; Value 4276; Time 7770
 Write; Address 4280; Value 4280; Time 7771
 Write; Address 4284; Value 4284; Time 7772
-Cache Miss0
 Write; Address 4288; Value 4288; Time 7873
 Write; Address 4292; Value 4292; Time 7874
 Write; Address 4296; Value 4296; Time 7875
@@ -3990,7 +3834,6 @@ Write; Address 4336; Value 4336; Time 7885
 Write; Address 4340; Value 4340; Time 7886
 Write; Address 4344; Value 4344; Time 7887
 Write; Address 4348; Value 4348; Time 7888
-Cache Miss0
 Write; Address 4352; Value 4352; Time 7989
 Write; Address 4356; Value 4356; Time 7990
 Write; Address 4360; Value 4360; Time 7991
@@ -4007,7 +3850,6 @@ Write; Address 4400; Value 4400; Time 8001
 Write; Address 4404; Value 4404; Time 8002
 Write; Address 4408; Value 4408; Time 8003
 Write; Address 4412; Value 4412; Time 8004
-Cache Miss0
 Write; Address 4416; Value 4416; Time 8105
 Write; Address 4420; Value 4420; Time 8106
 Write; Address 4424; Value 4424; Time 8107
@@ -4024,7 +3866,6 @@ Write; Address 4464; Value 4464; Time 8117
 Write; Address 4468; Value 4468; Time 8118
 Write; Address 4472; Value 4472; Time 8119
 Write; Address 4476; Value 4476; Time 8120
-Cache Miss0
 Write; Address 4480; Value 4480; Time 8221
 Write; Address 4484; Value 4484; Time 8222
 Write; Address 4488; Value 4488; Time 8223
@@ -4041,7 +3882,6 @@ Write; Address 4528; Value 4528; Time 8233
 Write; Address 4532; Value 4532; Time 8234
 Write; Address 4536; Value 4536; Time 8235
 Write; Address 4540; Value 4540; Time 8236
-Cache Miss0
 Write; Address 4544; Value 4544; Time 8337
 Write; Address 4548; Value 4548; Time 8338
 Write; Address 4552; Value 4552; Time 8339
@@ -4058,7 +3898,6 @@ Write; Address 4592; Value 4592; Time 8349
 Write; Address 4596; Value 4596; Time 8350
 Write; Address 4600; Value 4600; Time 8351
 Write; Address 4604; Value 4604; Time 8352
-Cache Miss0
 Write; Address 4608; Value 4608; Time 8453
 Write; Address 4612; Value 4612; Time 8454
 Write; Address 4616; Value 4616; Time 8455
@@ -4075,7 +3914,6 @@ Write; Address 4656; Value 4656; Time 8465
 Write; Address 4660; Value 4660; Time 8466
 Write; Address 4664; Value 4664; Time 8467
 Write; Address 4668; Value 4668; Time 8468
-Cache Miss0
 Write; Address 4672; Value 4672; Time 8569
 Write; Address 4676; Value 4676; Time 8570
 Write; Address 4680; Value 4680; Time 8571
@@ -4092,7 +3930,6 @@ Write; Address 4720; Value 4720; Time 8581
 Write; Address 4724; Value 4724; Time 8582
 Write; Address 4728; Value 4728; Time 8583
 Write; Address 4732; Value 4732; Time 8584
-Cache Miss0
 Write; Address 4736; Value 4736; Time 8685
 Write; Address 4740; Value 4740; Time 8686
 Write; Address 4744; Value 4744; Time 8687
@@ -4109,7 +3946,6 @@ Write; Address 4784; Value 4784; Time 8697
 Write; Address 4788; Value 4788; Time 8698
 Write; Address 4792; Value 4792; Time 8699
 Write; Address 4796; Value 4796; Time 8700
-Cache Miss0
 Write; Address 4800; Value 4800; Time 8801
 Write; Address 4804; Value 4804; Time 8802
 Write; Address 4808; Value 4808; Time 8803
@@ -4126,7 +3962,6 @@ Write; Address 4848; Value 4848; Time 8813
 Write; Address 4852; Value 4852; Time 8814
 Write; Address 4856; Value 4856; Time 8815
 Write; Address 4860; Value 4860; Time 8816
-Cache Miss0
 Write; Address 4864; Value 4864; Time 8917
 Write; Address 4868; Value 4868; Time 8918
 Write; Address 4872; Value 4872; Time 8919
@@ -4143,7 +3978,6 @@ Write; Address 4912; Value 4912; Time 8929
 Write; Address 4916; Value 4916; Time 8930
 Write; Address 4920; Value 4920; Time 8931
 Write; Address 4924; Value 4924; Time 8932
-Cache Miss0
 Write; Address 4928; Value 4928; Time 9033
 Write; Address 4932; Value 4932; Time 9034
 Write; Address 4936; Value 4936; Time 9035
@@ -4160,7 +3994,6 @@ Write; Address 4976; Value 4976; Time 9045
 Write; Address 4980; Value 4980; Time 9046
 Write; Address 4984; Value 4984; Time 9047
 Write; Address 4988; Value 4988; Time 9048
-Cache Miss0
 Write; Address 4992; Value 4992; Time 9149
 Write; Address 4996; Value 4996; Time 9150
 Write; Address 5000; Value 5000; Time 9151
@@ -4177,7 +4010,6 @@ Write; Address 5040; Value 5040; Time 9161
 Write; Address 5044; Value 5044; Time 9162
 Write; Address 5048; Value 5048; Time 9163
 Write; Address 5052; Value 5052; Time 9164
-Cache Miss0
 Write; Address 5056; Value 5056; Time 9265
 Write; Address 5060; Value 5060; Time 9266
 Write; Address 5064; Value 5064; Time 9267
@@ -4194,7 +4026,6 @@ Write; Address 5104; Value 5104; Time 9277
 Write; Address 5108; Value 5108; Time 9278
 Write; Address 5112; Value 5112; Time 9279
 Write; Address 5116; Value 5116; Time 9280
-Cache Miss0
 Write; Address 5120; Value 5120; Time 9381
 Write; Address 5124; Value 5124; Time 9382
 Write; Address 5128; Value 5128; Time 9383
@@ -4211,7 +4042,6 @@ Write; Address 5168; Value 5168; Time 9393
 Write; Address 5172; Value 5172; Time 9394
 Write; Address 5176; Value 5176; Time 9395
 Write; Address 5180; Value 5180; Time 9396
-Cache Miss0
 Write; Address 5184; Value 5184; Time 9497
 Write; Address 5188; Value 5188; Time 9498
 Write; Address 5192; Value 5192; Time 9499
@@ -4228,7 +4058,6 @@ Write; Address 5232; Value 5232; Time 9509
 Write; Address 5236; Value 5236; Time 9510
 Write; Address 5240; Value 5240; Time 9511
 Write; Address 5244; Value 5244; Time 9512
-Cache Miss0
 Write; Address 5248; Value 5248; Time 9613
 Write; Address 5252; Value 5252; Time 9614
 Write; Address 5256; Value 5256; Time 9615
@@ -4245,7 +4074,6 @@ Write; Address 5296; Value 5296; Time 9625
 Write; Address 5300; Value 5300; Time 9626
 Write; Address 5304; Value 5304; Time 9627
 Write; Address 5308; Value 5308; Time 9628
-Cache Miss0
 Write; Address 5312; Value 5312; Time 9729
 Write; Address 5316; Value 5316; Time 9730
 Write; Address 5320; Value 5320; Time 9731
@@ -4262,7 +4090,6 @@ Write; Address 5360; Value 5360; Time 9741
 Write; Address 5364; Value 5364; Time 9742
 Write; Address 5368; Value 5368; Time 9743
 Write; Address 5372; Value 5372; Time 9744
-Cache Miss0
 Write; Address 5376; Value 5376; Time 9845
 Write; Address 5380; Value 5380; Time 9846
 Write; Address 5384; Value 5384; Time 9847
@@ -4279,7 +4106,6 @@ Write; Address 5424; Value 5424; Time 9857
 Write; Address 5428; Value 5428; Time 9858
 Write; Address 5432; Value 5432; Time 9859
 Write; Address 5436; Value 5436; Time 9860
-Cache Miss0
 Write; Address 5440; Value 5440; Time 9961
 Write; Address 5444; Value 5444; Time 9962
 Write; Address 5448; Value 5448; Time 9963
@@ -4296,7 +4122,6 @@ Write; Address 5488; Value 5488; Time 9973
 Write; Address 5492; Value 5492; Time 9974
 Write; Address 5496; Value 5496; Time 9975
 Write; Address 5500; Value 5500; Time 9976
-Cache Miss0
 Write; Address 5504; Value 5504; Time 10077
 Write; Address 5508; Value 5508; Time 10078
 Write; Address 5512; Value 5512; Time 10079
@@ -4313,7 +4138,6 @@ Write; Address 5552; Value 5552; Time 10089
 Write; Address 5556; Value 5556; Time 10090
 Write; Address 5560; Value 5560; Time 10091
 Write; Address 5564; Value 5564; Time 10092
-Cache Miss0
 Write; Address 5568; Value 5568; Time 10193
 Write; Address 5572; Value 5572; Time 10194
 Write; Address 5576; Value 5576; Time 10195
@@ -4330,7 +4154,6 @@ Write; Address 5616; Value 5616; Time 10205
 Write; Address 5620; Value 5620; Time 10206
 Write; Address 5624; Value 5624; Time 10207
 Write; Address 5628; Value 5628; Time 10208
-Cache Miss0
 Write; Address 5632; Value 5632; Time 10309
 Write; Address 5636; Value 5636; Time 10310
 Write; Address 5640; Value 5640; Time 10311
@@ -4347,7 +4170,6 @@ Write; Address 5680; Value 5680; Time 10321
 Write; Address 5684; Value 5684; Time 10322
 Write; Address 5688; Value 5688; Time 10323
 Write; Address 5692; Value 5692; Time 10324
-Cache Miss0
 Write; Address 5696; Value 5696; Time 10425
 Write; Address 5700; Value 5700; Time 10426
 Write; Address 5704; Value 5704; Time 10427
@@ -4364,7 +4186,6 @@ Write; Address 5744; Value 5744; Time 10437
 Write; Address 5748; Value 5748; Time 10438
 Write; Address 5752; Value 5752; Time 10439
 Write; Address 5756; Value 5756; Time 10440
-Cache Miss0
 Write; Address 5760; Value 5760; Time 10541
 Write; Address 5764; Value 5764; Time 10542
 Write; Address 5768; Value 5768; Time 10543
@@ -4381,7 +4202,6 @@ Write; Address 5808; Value 5808; Time 10553
 Write; Address 5812; Value 5812; Time 10554
 Write; Address 5816; Value 5816; Time 10555
 Write; Address 5820; Value 5820; Time 10556
-Cache Miss0
 Write; Address 5824; Value 5824; Time 10657
 Write; Address 5828; Value 5828; Time 10658
 Write; Address 5832; Value 5832; Time 10659
@@ -4398,7 +4218,6 @@ Write; Address 5872; Value 5872; Time 10669
 Write; Address 5876; Value 5876; Time 10670
 Write; Address 5880; Value 5880; Time 10671
 Write; Address 5884; Value 5884; Time 10672
-Cache Miss0
 Write; Address 5888; Value 5888; Time 10773
 Write; Address 5892; Value 5892; Time 10774
 Write; Address 5896; Value 5896; Time 10775
@@ -4415,7 +4234,6 @@ Write; Address 5936; Value 5936; Time 10785
 Write; Address 5940; Value 5940; Time 10786
 Write; Address 5944; Value 5944; Time 10787
 Write; Address 5948; Value 5948; Time 10788
-Cache Miss0
 Write; Address 5952; Value 5952; Time 10889
 Write; Address 5956; Value 5956; Time 10890
 Write; Address 5960; Value 5960; Time 10891
@@ -4432,7 +4250,6 @@ Write; Address 6000; Value 6000; Time 10901
 Write; Address 6004; Value 6004; Time 10902
 Write; Address 6008; Value 6008; Time 10903
 Write; Address 6012; Value 6012; Time 10904
-Cache Miss0
 Write; Address 6016; Value 6016; Time 11005
 Write; Address 6020; Value 6020; Time 11006
 Write; Address 6024; Value 6024; Time 11007
@@ -4449,7 +4266,6 @@ Write; Address 6064; Value 6064; Time 11017
 Write; Address 6068; Value 6068; Time 11018
 Write; Address 6072; Value 6072; Time 11019
 Write; Address 6076; Value 6076; Time 11020
-Cache Miss0
 Write; Address 6080; Value 6080; Time 11121
 Write; Address 6084; Value 6084; Time 11122
 Write; Address 6088; Value 6088; Time 11123
@@ -4466,7 +4282,6 @@ Write; Address 6128; Value 6128; Time 11133
 Write; Address 6132; Value 6132; Time 11134
 Write; Address 6136; Value 6136; Time 11135
 Write; Address 6140; Value 6140; Time 11136
-Cache Miss0
 Write; Address 6144; Value 6144; Time 11237
 Write; Address 6148; Value 6148; Time 11238
 Write; Address 6152; Value 6152; Time 11239
@@ -4483,7 +4298,6 @@ Write; Address 6192; Value 6192; Time 11249
 Write; Address 6196; Value 6196; Time 11250
 Write; Address 6200; Value 6200; Time 11251
 Write; Address 6204; Value 6204; Time 11252
-Cache Miss0
 Write; Address 6208; Value 6208; Time 11353
 Write; Address 6212; Value 6212; Time 11354
 Write; Address 6216; Value 6216; Time 11355
@@ -4500,7 +4314,6 @@ Write; Address 6256; Value 6256; Time 11365
 Write; Address 6260; Value 6260; Time 11366
 Write; Address 6264; Value 6264; Time 11367
 Write; Address 6268; Value 6268; Time 11368
-Cache Miss0
 Write; Address 6272; Value 6272; Time 11469
 Write; Address 6276; Value 6276; Time 11470
 Write; Address 6280; Value 6280; Time 11471
@@ -4517,7 +4330,6 @@ Write; Address 6320; Value 6320; Time 11481
 Write; Address 6324; Value 6324; Time 11482
 Write; Address 6328; Value 6328; Time 11483
 Write; Address 6332; Value 6332; Time 11484
-Cache Miss0
 Write; Address 6336; Value 6336; Time 11585
 Write; Address 6340; Value 6340; Time 11586
 Write; Address 6344; Value 6344; Time 11587
@@ -4534,7 +4346,6 @@ Write; Address 6384; Value 6384; Time 11597
 Write; Address 6388; Value 6388; Time 11598
 Write; Address 6392; Value 6392; Time 11599
 Write; Address 6396; Value 6396; Time 11600
-Cache Miss0
 Write; Address 6400; Value 6400; Time 11701
 Write; Address 6404; Value 6404; Time 11702
 Write; Address 6408; Value 6408; Time 11703
@@ -4551,7 +4362,6 @@ Write; Address 6448; Value 6448; Time 11713
 Write; Address 6452; Value 6452; Time 11714
 Write; Address 6456; Value 6456; Time 11715
 Write; Address 6460; Value 6460; Time 11716
-Cache Miss0
 Write; Address 6464; Value 6464; Time 11817
 Write; Address 6468; Value 6468; Time 11818
 Write; Address 6472; Value 6472; Time 11819
@@ -4568,7 +4378,6 @@ Write; Address 6512; Value 6512; Time 11829
 Write; Address 6516; Value 6516; Time 11830
 Write; Address 6520; Value 6520; Time 11831
 Write; Address 6524; Value 6524; Time 11832
-Cache Miss0
 Write; Address 6528; Value 6528; Time 11933
 Write; Address 6532; Value 6532; Time 11934
 Write; Address 6536; Value 6536; Time 11935
@@ -4585,7 +4394,6 @@ Write; Address 6576; Value 6576; Time 11945
 Write; Address 6580; Value 6580; Time 11946
 Write; Address 6584; Value 6584; Time 11947
 Write; Address 6588; Value 6588; Time 11948
-Cache Miss0
 Write; Address 6592; Value 6592; Time 12049
 Write; Address 6596; Value 6596; Time 12050
 Write; Address 6600; Value 6600; Time 12051
@@ -4602,7 +4410,6 @@ Write; Address 6640; Value 6640; Time 12061
 Write; Address 6644; Value 6644; Time 12062
 Write; Address 6648; Value 6648; Time 12063
 Write; Address 6652; Value 6652; Time 12064
-Cache Miss0
 Write; Address 6656; Value 6656; Time 12165
 Write; Address 6660; Value 6660; Time 12166
 Write; Address 6664; Value 6664; Time 12167
@@ -4619,7 +4426,6 @@ Write; Address 6704; Value 6704; Time 12177
 Write; Address 6708; Value 6708; Time 12178
 Write; Address 6712; Value 6712; Time 12179
 Write; Address 6716; Value 6716; Time 12180
-Cache Miss0
 Write; Address 6720; Value 6720; Time 12281
 Write; Address 6724; Value 6724; Time 12282
 Write; Address 6728; Value 6728; Time 12283
@@ -4636,7 +4442,6 @@ Write; Address 6768; Value 6768; Time 12293
 Write; Address 6772; Value 6772; Time 12294
 Write; Address 6776; Value 6776; Time 12295
 Write; Address 6780; Value 6780; Time 12296
-Cache Miss0
 Write; Address 6784; Value 6784; Time 12397
 Write; Address 6788; Value 6788; Time 12398
 Write; Address 6792; Value 6792; Time 12399
@@ -4653,7 +4458,6 @@ Write; Address 6832; Value 6832; Time 12409
 Write; Address 6836; Value 6836; Time 12410
 Write; Address 6840; Value 6840; Time 12411
 Write; Address 6844; Value 6844; Time 12412
-Cache Miss0
 Write; Address 6848; Value 6848; Time 12513
 Write; Address 6852; Value 6852; Time 12514
 Write; Address 6856; Value 6856; Time 12515
@@ -4670,7 +4474,6 @@ Write; Address 6896; Value 6896; Time 12525
 Write; Address 6900; Value 6900; Time 12526
 Write; Address 6904; Value 6904; Time 12527
 Write; Address 6908; Value 6908; Time 12528
-Cache Miss0
 Write; Address 6912; Value 6912; Time 12629
 Write; Address 6916; Value 6916; Time 12630
 Write; Address 6920; Value 6920; Time 12631
@@ -4687,7 +4490,6 @@ Write; Address 6960; Value 6960; Time 12641
 Write; Address 6964; Value 6964; Time 12642
 Write; Address 6968; Value 6968; Time 12643
 Write; Address 6972; Value 6972; Time 12644
-Cache Miss0
 Write; Address 6976; Value 6976; Time 12745
 Write; Address 6980; Value 6980; Time 12746
 Write; Address 6984; Value 6984; Time 12747
@@ -4704,7 +4506,6 @@ Write; Address 7024; Value 7024; Time 12757
 Write; Address 7028; Value 7028; Time 12758
 Write; Address 7032; Value 7032; Time 12759
 Write; Address 7036; Value 7036; Time 12760
-Cache Miss0
 Write; Address 7040; Value 7040; Time 12861
 Write; Address 7044; Value 7044; Time 12862
 Write; Address 7048; Value 7048; Time 12863
@@ -4721,7 +4522,6 @@ Write; Address 7088; Value 7088; Time 12873
 Write; Address 7092; Value 7092; Time 12874
 Write; Address 7096; Value 7096; Time 12875
 Write; Address 7100; Value 7100; Time 12876
-Cache Miss0
 Write; Address 7104; Value 7104; Time 12977
 Write; Address 7108; Value 7108; Time 12978
 Write; Address 7112; Value 7112; Time 12979
@@ -4738,7 +4538,6 @@ Write; Address 7152; Value 7152; Time 12989
 Write; Address 7156; Value 7156; Time 12990
 Write; Address 7160; Value 7160; Time 12991
 Write; Address 7164; Value 7164; Time 12992
-Cache Miss0
 Write; Address 7168; Value 7168; Time 13093
 Write; Address 7172; Value 7172; Time 13094
 Write; Address 7176; Value 7176; Time 13095
@@ -4755,7 +4554,6 @@ Write; Address 7216; Value 7216; Time 13105
 Write; Address 7220; Value 7220; Time 13106
 Write; Address 7224; Value 7224; Time 13107
 Write; Address 7228; Value 7228; Time 13108
-Cache Miss0
 Write; Address 7232; Value 7232; Time 13209
 Write; Address 7236; Value 7236; Time 13210
 Write; Address 7240; Value 7240; Time 13211
@@ -4772,7 +4570,6 @@ Write; Address 7280; Value 7280; Time 13221
 Write; Address 7284; Value 7284; Time 13222
 Write; Address 7288; Value 7288; Time 13223
 Write; Address 7292; Value 7292; Time 13224
-Cache Miss0
 Write; Address 7296; Value 7296; Time 13325
 Write; Address 7300; Value 7300; Time 13326
 Write; Address 7304; Value 7304; Time 13327
@@ -4789,7 +4586,6 @@ Write; Address 7344; Value 7344; Time 13337
 Write; Address 7348; Value 7348; Time 13338
 Write; Address 7352; Value 7352; Time 13339
 Write; Address 7356; Value 7356; Time 13340
-Cache Miss0
 Write; Address 7360; Value 7360; Time 13441
 Write; Address 7364; Value 7364; Time 13442
 Write; Address 7368; Value 7368; Time 13443
@@ -4806,7 +4602,6 @@ Write; Address 7408; Value 7408; Time 13453
 Write; Address 7412; Value 7412; Time 13454
 Write; Address 7416; Value 7416; Time 13455
 Write; Address 7420; Value 7420; Time 13456
-Cache Miss0
 Write; Address 7424; Value 7424; Time 13557
 Write; Address 7428; Value 7428; Time 13558
 Write; Address 7432; Value 7432; Time 13559
@@ -4823,7 +4618,6 @@ Write; Address 7472; Value 7472; Time 13569
 Write; Address 7476; Value 7476; Time 13570
 Write; Address 7480; Value 7480; Time 13571
 Write; Address 7484; Value 7484; Time 13572
-Cache Miss0
 Write; Address 7488; Value 7488; Time 13673
 Write; Address 7492; Value 7492; Time 13674
 Write; Address 7496; Value 7496; Time 13675
@@ -4840,7 +4634,6 @@ Write; Address 7536; Value 7536; Time 13685
 Write; Address 7540; Value 7540; Time 13686
 Write; Address 7544; Value 7544; Time 13687
 Write; Address 7548; Value 7548; Time 13688
-Cache Miss0
 Write; Address 7552; Value 7552; Time 13789
 Write; Address 7556; Value 7556; Time 13790
 Write; Address 7560; Value 7560; Time 13791
@@ -4857,7 +4650,6 @@ Write; Address 7600; Value 7600; Time 13801
 Write; Address 7604; Value 7604; Time 13802
 Write; Address 7608; Value 7608; Time 13803
 Write; Address 7612; Value 7612; Time 13804
-Cache Miss0
 Write; Address 7616; Value 7616; Time 13905
 Write; Address 7620; Value 7620; Time 13906
 Write; Address 7624; Value 7624; Time 13907
@@ -4874,7 +4666,6 @@ Write; Address 7664; Value 7664; Time 13917
 Write; Address 7668; Value 7668; Time 13918
 Write; Address 7672; Value 7672; Time 13919
 Write; Address 7676; Value 7676; Time 13920
-Cache Miss0
 Write; Address 7680; Value 7680; Time 14021
 Write; Address 7684; Value 7684; Time 14022
 Write; Address 7688; Value 7688; Time 14023
@@ -4891,7 +4682,6 @@ Write; Address 7728; Value 7728; Time 14033
 Write; Address 7732; Value 7732; Time 14034
 Write; Address 7736; Value 7736; Time 14035
 Write; Address 7740; Value 7740; Time 14036
-Cache Miss0
 Write; Address 7744; Value 7744; Time 14137
 Write; Address 7748; Value 7748; Time 14138
 Write; Address 7752; Value 7752; Time 14139
@@ -4908,7 +4698,6 @@ Write; Address 7792; Value 7792; Time 14149
 Write; Address 7796; Value 7796; Time 14150
 Write; Address 7800; Value 7800; Time 14151
 Write; Address 7804; Value 7804; Time 14152
-Cache Miss0
 Write; Address 7808; Value 7808; Time 14253
 Write; Address 7812; Value 7812; Time 14254
 Write; Address 7816; Value 7816; Time 14255
@@ -4925,7 +4714,6 @@ Write; Address 7856; Value 7856; Time 14265
 Write; Address 7860; Value 7860; Time 14266
 Write; Address 7864; Value 7864; Time 14267
 Write; Address 7868; Value 7868; Time 14268
-Cache Miss0
 Write; Address 7872; Value 7872; Time 14369
 Write; Address 7876; Value 7876; Time 14370
 Write; Address 7880; Value 7880; Time 14371
@@ -4942,7 +4730,6 @@ Write; Address 7920; Value 7920; Time 14381
 Write; Address 7924; Value 7924; Time 14382
 Write; Address 7928; Value 7928; Time 14383
 Write; Address 7932; Value 7932; Time 14384
-Cache Miss0
 Write; Address 7936; Value 7936; Time 14485
 Write; Address 7940; Value 7940; Time 14486
 Write; Address 7944; Value 7944; Time 14487
@@ -4959,7 +4746,6 @@ Write; Address 7984; Value 7984; Time 14497
 Write; Address 7988; Value 7988; Time 14498
 Write; Address 7992; Value 7992; Time 14499
 Write; Address 7996; Value 7996; Time 14500
-Cache Miss0
 Write; Address 8000; Value 8000; Time 14601
 Write; Address 8004; Value 8004; Time 14602
 Write; Address 8008; Value 8008; Time 14603
@@ -4976,7 +4762,6 @@ Write; Address 8048; Value 8048; Time 14613
 Write; Address 8052; Value 8052; Time 14614
 Write; Address 8056; Value 8056; Time 14615
 Write; Address 8060; Value 8060; Time 14616
-Cache Miss0
 Write; Address 8064; Value 8064; Time 14717
 Write; Address 8068; Value 8068; Time 14718
 Write; Address 8072; Value 8072; Time 14719
@@ -4993,7 +4778,6 @@ Write; Address 8112; Value 8112; Time 14729
 Write; Address 8116; Value 8116; Time 14730
 Write; Address 8120; Value 8120; Time 14731
 Write; Address 8124; Value 8124; Time 14732
-Cache Miss0
 Write; Address 8128; Value 8128; Time 14833
 Write; Address 8132; Value 8132; Time 14834
 Write; Address 8136; Value 8136; Time 14835
@@ -5010,7 +4794,6 @@ Write; Address 8176; Value 8176; Time 14845
 Write; Address 8180; Value 8180; Time 14846
 Write; Address 8184; Value 8184; Time 14847
 Write; Address 8188; Value 8188; Time 14848
-Cache Miss0
 Write; Address 8192; Value 8192; Time 14949
 Write; Address 8196; Value 8196; Time 14950
 Write; Address 8200; Value 8200; Time 14951
@@ -5027,7 +4810,6 @@ Write; Address 8240; Value 8240; Time 14961
 Write; Address 8244; Value 8244; Time 14962
 Write; Address 8248; Value 8248; Time 14963
 Write; Address 8252; Value 8252; Time 14964
-Cache Miss0
 Write; Address 8256; Value 8256; Time 15065
 Write; Address 8260; Value 8260; Time 15066
 Write; Address 8264; Value 8264; Time 15067
@@ -5044,7 +4826,6 @@ Write; Address 8304; Value 8304; Time 15077
 Write; Address 8308; Value 8308; Time 15078
 Write; Address 8312; Value 8312; Time 15079
 Write; Address 8316; Value 8316; Time 15080
-Cache Miss0
 Write; Address 8320; Value 8320; Time 15181
 Write; Address 8324; Value 8324; Time 15182
 Write; Address 8328; Value 8328; Time 15183
@@ -5061,7 +4842,6 @@ Write; Address 8368; Value 8368; Time 15193
 Write; Address 8372; Value 8372; Time 15194
 Write; Address 8376; Value 8376; Time 15195
 Write; Address 8380; Value 8380; Time 15196
-Cache Miss0
 Write; Address 8384; Value 8384; Time 15297
 Write; Address 8388; Value 8388; Time 15298
 Write; Address 8392; Value 8392; Time 15299
@@ -5078,7 +4858,6 @@ Write; Address 8432; Value 8432; Time 15309
 Write; Address 8436; Value 8436; Time 15310
 Write; Address 8440; Value 8440; Time 15311
 Write; Address 8444; Value 8444; Time 15312
-Cache Miss0
 Write; Address 8448; Value 8448; Time 15413
 Write; Address 8452; Value 8452; Time 15414
 Write; Address 8456; Value 8456; Time 15415
@@ -5095,7 +4874,6 @@ Write; Address 8496; Value 8496; Time 15425
 Write; Address 8500; Value 8500; Time 15426
 Write; Address 8504; Value 8504; Time 15427
 Write; Address 8508; Value 8508; Time 15428
-Cache Miss0
 Write; Address 8512; Value 8512; Time 15529
 Write; Address 8516; Value 8516; Time 15530
 Write; Address 8520; Value 8520; Time 15531
@@ -5112,7 +4890,6 @@ Write; Address 8560; Value 8560; Time 15541
 Write; Address 8564; Value 8564; Time 15542
 Write; Address 8568; Value 8568; Time 15543
 Write; Address 8572; Value 8572; Time 15544
-Cache Miss0
 Write; Address 8576; Value 8576; Time 15645
 Write; Address 8580; Value 8580; Time 15646
 Write; Address 8584; Value 8584; Time 15647
@@ -5129,7 +4906,6 @@ Write; Address 8624; Value 8624; Time 15657
 Write; Address 8628; Value 8628; Time 15658
 Write; Address 8632; Value 8632; Time 15659
 Write; Address 8636; Value 8636; Time 15660
-Cache Miss0
 Write; Address 8640; Value 8640; Time 15761
 Write; Address 8644; Value 8644; Time 15762
 Write; Address 8648; Value 8648; Time 15763
@@ -5146,7 +4922,6 @@ Write; Address 8688; Value 8688; Time 15773
 Write; Address 8692; Value 8692; Time 15774
 Write; Address 8696; Value 8696; Time 15775
 Write; Address 8700; Value 8700; Time 15776
-Cache Miss0
 Write; Address 8704; Value 8704; Time 15877
 Write; Address 8708; Value 8708; Time 15878
 Write; Address 8712; Value 8712; Time 15879
@@ -5163,7 +4938,6 @@ Write; Address 8752; Value 8752; Time 15889
 Write; Address 8756; Value 8756; Time 15890
 Write; Address 8760; Value 8760; Time 15891
 Write; Address 8764; Value 8764; Time 15892
-Cache Miss0
 Write; Address 8768; Value 8768; Time 15993
 Write; Address 8772; Value 8772; Time 15994
 Write; Address 8776; Value 8776; Time 15995
@@ -5180,7 +4954,6 @@ Write; Address 8816; Value 8816; Time 16005
 Write; Address 8820; Value 8820; Time 16006
 Write; Address 8824; Value 8824; Time 16007
 Write; Address 8828; Value 8828; Time 16008
-Cache Miss0
 Write; Address 8832; Value 8832; Time 16109
 Write; Address 8836; Value 8836; Time 16110
 Write; Address 8840; Value 8840; Time 16111
@@ -5197,7 +4970,6 @@ Write; Address 8880; Value 8880; Time 16121
 Write; Address 8884; Value 8884; Time 16122
 Write; Address 8888; Value 8888; Time 16123
 Write; Address 8892; Value 8892; Time 16124
-Cache Miss0
 Write; Address 8896; Value 8896; Time 16225
 Write; Address 8900; Value 8900; Time 16226
 Write; Address 8904; Value 8904; Time 16227
@@ -5214,7 +4986,6 @@ Write; Address 8944; Value 8944; Time 16237
 Write; Address 8948; Value 8948; Time 16238
 Write; Address 8952; Value 8952; Time 16239
 Write; Address 8956; Value 8956; Time 16240
-Cache Miss0
 Write; Address 8960; Value 8960; Time 16341
 Write; Address 8964; Value 8964; Time 16342
 Write; Address 8968; Value 8968; Time 16343
@@ -5231,7 +5002,6 @@ Write; Address 9008; Value 9008; Time 16353
 Write; Address 9012; Value 9012; Time 16354
 Write; Address 9016; Value 9016; Time 16355
 Write; Address 9020; Value 9020; Time 16356
-Cache Miss0
 Write; Address 9024; Value 9024; Time 16457
 Write; Address 9028; Value 9028; Time 16458
 Write; Address 9032; Value 9032; Time 16459
@@ -5248,7 +5018,6 @@ Write; Address 9072; Value 9072; Time 16469
 Write; Address 9076; Value 9076; Time 16470
 Write; Address 9080; Value 9080; Time 16471
 Write; Address 9084; Value 9084; Time 16472
-Cache Miss0
 Write; Address 9088; Value 9088; Time 16573
 Write; Address 9092; Value 9092; Time 16574
 Write; Address 9096; Value 9096; Time 16575
@@ -5265,7 +5034,6 @@ Write; Address 9136; Value 9136; Time 16585
 Write; Address 9140; Value 9140; Time 16586
 Write; Address 9144; Value 9144; Time 16587
 Write; Address 9148; Value 9148; Time 16588
-Cache Miss0
 Write; Address 9152; Value 9152; Time 16689
 Write; Address 9156; Value 9156; Time 16690
 Write; Address 9160; Value 9160; Time 16691
@@ -5282,7 +5050,6 @@ Write; Address 9200; Value 9200; Time 16701
 Write; Address 9204; Value 9204; Time 16702
 Write; Address 9208; Value 9208; Time 16703
 Write; Address 9212; Value 9212; Time 16704
-Cache Miss0
 Write; Address 9216; Value 9216; Time 16805
 Write; Address 9220; Value 9220; Time 16806
 Write; Address 9224; Value 9224; Time 16807
@@ -5299,7 +5066,6 @@ Write; Address 9264; Value 9264; Time 16817
 Write; Address 9268; Value 9268; Time 16818
 Write; Address 9272; Value 9272; Time 16819
 Write; Address 9276; Value 9276; Time 16820
-Cache Miss0
 Write; Address 9280; Value 9280; Time 16921
 Write; Address 9284; Value 9284; Time 16922
 Write; Address 9288; Value 9288; Time 16923
@@ -5316,7 +5082,6 @@ Write; Address 9328; Value 9328; Time 16933
 Write; Address 9332; Value 9332; Time 16934
 Write; Address 9336; Value 9336; Time 16935
 Write; Address 9340; Value 9340; Time 16936
-Cache Miss0
 Write; Address 9344; Value 9344; Time 17037
 Write; Address 9348; Value 9348; Time 17038
 Write; Address 9352; Value 9352; Time 17039
@@ -5333,7 +5098,6 @@ Write; Address 9392; Value 9392; Time 17049
 Write; Address 9396; Value 9396; Time 17050
 Write; Address 9400; Value 9400; Time 17051
 Write; Address 9404; Value 9404; Time 17052
-Cache Miss0
 Write; Address 9408; Value 9408; Time 17153
 Write; Address 9412; Value 9412; Time 17154
 Write; Address 9416; Value 9416; Time 17155
@@ -5350,7 +5114,6 @@ Write; Address 9456; Value 9456; Time 17165
 Write; Address 9460; Value 9460; Time 17166
 Write; Address 9464; Value 9464; Time 17167
 Write; Address 9468; Value 9468; Time 17168
-Cache Miss0
 Write; Address 9472; Value 9472; Time 17269
 Write; Address 9476; Value 9476; Time 17270
 Write; Address 9480; Value 9480; Time 17271
@@ -5367,7 +5130,6 @@ Write; Address 9520; Value 9520; Time 17281
 Write; Address 9524; Value 9524; Time 17282
 Write; Address 9528; Value 9528; Time 17283
 Write; Address 9532; Value 9532; Time 17284
-Cache Miss0
 Write; Address 9536; Value 9536; Time 17385
 Write; Address 9540; Value 9540; Time 17386
 Write; Address 9544; Value 9544; Time 17387
@@ -5384,7 +5146,6 @@ Write; Address 9584; Value 9584; Time 17397
 Write; Address 9588; Value 9588; Time 17398
 Write; Address 9592; Value 9592; Time 17399
 Write; Address 9596; Value 9596; Time 17400
-Cache Miss0
 Write; Address 9600; Value 9600; Time 17501
 Write; Address 9604; Value 9604; Time 17502
 Write; Address 9608; Value 9608; Time 17503
@@ -5401,7 +5162,6 @@ Write; Address 9648; Value 9648; Time 17513
 Write; Address 9652; Value 9652; Time 17514
 Write; Address 9656; Value 9656; Time 17515
 Write; Address 9660; Value 9660; Time 17516
-Cache Miss0
 Write; Address 9664; Value 9664; Time 17617
 Write; Address 9668; Value 9668; Time 17618
 Write; Address 9672; Value 9672; Time 17619
@@ -5418,7 +5178,6 @@ Write; Address 9712; Value 9712; Time 17629
 Write; Address 9716; Value 9716; Time 17630
 Write; Address 9720; Value 9720; Time 17631
 Write; Address 9724; Value 9724; Time 17632
-Cache Miss0
 Write; Address 9728; Value 9728; Time 17733
 Write; Address 9732; Value 9732; Time 17734
 Write; Address 9736; Value 9736; Time 17735
@@ -5435,7 +5194,6 @@ Write; Address 9776; Value 9776; Time 17745
 Write; Address 9780; Value 9780; Time 17746
 Write; Address 9784; Value 9784; Time 17747
 Write; Address 9788; Value 9788; Time 17748
-Cache Miss0
 Write; Address 9792; Value 9792; Time 17849
 Write; Address 9796; Value 9796; Time 17850
 Write; Address 9800; Value 9800; Time 17851
@@ -5452,7 +5210,6 @@ Write; Address 9840; Value 9840; Time 17861
 Write; Address 9844; Value 9844; Time 17862
 Write; Address 9848; Value 9848; Time 17863
 Write; Address 9852; Value 9852; Time 17864
-Cache Miss0
 Write; Address 9856; Value 9856; Time 17965
 Write; Address 9860; Value 9860; Time 17966
 Write; Address 9864; Value 9864; Time 17967
@@ -5469,7 +5226,6 @@ Write; Address 9904; Value 9904; Time 17977
 Write; Address 9908; Value 9908; Time 17978
 Write; Address 9912; Value 9912; Time 17979
 Write; Address 9916; Value 9916; Time 17980
-Cache Miss0
 Write; Address 9920; Value 9920; Time 18081
 Write; Address 9924; Value 9924; Time 18082
 Write; Address 9928; Value 9928; Time 18083
@@ -5486,7 +5242,6 @@ Write; Address 9968; Value 9968; Time 18093
 Write; Address 9972; Value 9972; Time 18094
 Write; Address 9976; Value 9976; Time 18095
 Write; Address 9980; Value 9980; Time 18096
-Cache Miss0
 Write; Address 9984; Value 9984; Time 18197
 Write; Address 9988; Value 9988; Time 18198
 Write; Address 9992; Value 9992; Time 18199
@@ -5503,7 +5258,6 @@ Write; Address 10032; Value 10032; Time 18209
 Write; Address 10036; Value 10036; Time 18210
 Write; Address 10040; Value 10040; Time 18211
 Write; Address 10044; Value 10044; Time 18212
-Cache Miss0
 Write; Address 10048; Value 10048; Time 18313
 Write; Address 10052; Value 10052; Time 18314
 Write; Address 10056; Value 10056; Time 18315
@@ -5520,7 +5274,6 @@ Write; Address 10096; Value 10096; Time 18325
 Write; Address 10100; Value 10100; Time 18326
 Write; Address 10104; Value 10104; Time 18327
 Write; Address 10108; Value 10108; Time 18328
-Cache Miss0
 Write; Address 10112; Value 10112; Time 18429
 Write; Address 10116; Value 10116; Time 18430
 Write; Address 10120; Value 10120; Time 18431
@@ -5537,7 +5290,6 @@ Write; Address 10160; Value 10160; Time 18441
 Write; Address 10164; Value 10164; Time 18442
 Write; Address 10168; Value 10168; Time 18443
 Write; Address 10172; Value 10172; Time 18444
-Cache Miss0
 Write; Address 10176; Value 10176; Time 18545
 Write; Address 10180; Value 10180; Time 18546
 Write; Address 10184; Value 10184; Time 18547
@@ -5554,7 +5306,6 @@ Write; Address 10224; Value 10224; Time 18557
 Write; Address 10228; Value 10228; Time 18558
 Write; Address 10232; Value 10232; Time 18559
 Write; Address 10236; Value 10236; Time 18560
-Cache Miss0
 Write; Address 10240; Value 10240; Time 18661
 Write; Address 10244; Value 10244; Time 18662
 Write; Address 10248; Value 10248; Time 18663
@@ -5571,7 +5322,6 @@ Write; Address 10288; Value 10288; Time 18673
 Write; Address 10292; Value 10292; Time 18674
 Write; Address 10296; Value 10296; Time 18675
 Write; Address 10300; Value 10300; Time 18676
-Cache Miss0
 Write; Address 10304; Value 10304; Time 18777
 Write; Address 10308; Value 10308; Time 18778
 Write; Address 10312; Value 10312; Time 18779
@@ -5588,7 +5338,6 @@ Write; Address 10352; Value 10352; Time 18789
 Write; Address 10356; Value 10356; Time 18790
 Write; Address 10360; Value 10360; Time 18791
 Write; Address 10364; Value 10364; Time 18792
-Cache Miss0
 Write; Address 10368; Value 10368; Time 18893
 Write; Address 10372; Value 10372; Time 18894
 Write; Address 10376; Value 10376; Time 18895
@@ -5605,7 +5354,6 @@ Write; Address 10416; Value 10416; Time 18905
 Write; Address 10420; Value 10420; Time 18906
 Write; Address 10424; Value 10424; Time 18907
 Write; Address 10428; Value 10428; Time 18908
-Cache Miss0
 Write; Address 10432; Value 10432; Time 19009
 Write; Address 10436; Value 10436; Time 19010
 Write; Address 10440; Value 10440; Time 19011
@@ -5622,7 +5370,6 @@ Write; Address 10480; Value 10480; Time 19021
 Write; Address 10484; Value 10484; Time 19022
 Write; Address 10488; Value 10488; Time 19023
 Write; Address 10492; Value 10492; Time 19024
-Cache Miss0
 Write; Address 10496; Value 10496; Time 19125
 Write; Address 10500; Value 10500; Time 19126
 Write; Address 10504; Value 10504; Time 19127
@@ -5639,7 +5386,6 @@ Write; Address 10544; Value 10544; Time 19137
 Write; Address 10548; Value 10548; Time 19138
 Write; Address 10552; Value 10552; Time 19139
 Write; Address 10556; Value 10556; Time 19140
-Cache Miss0
 Write; Address 10560; Value 10560; Time 19241
 Write; Address 10564; Value 10564; Time 19242
 Write; Address 10568; Value 10568; Time 19243
@@ -5656,7 +5402,6 @@ Write; Address 10608; Value 10608; Time 19253
 Write; Address 10612; Value 10612; Time 19254
 Write; Address 10616; Value 10616; Time 19255
 Write; Address 10620; Value 10620; Time 19256
-Cache Miss0
 Write; Address 10624; Value 10624; Time 19357
 Write; Address 10628; Value 10628; Time 19358
 Write; Address 10632; Value 10632; Time 19359
@@ -5673,7 +5418,6 @@ Write; Address 10672; Value 10672; Time 19369
 Write; Address 10676; Value 10676; Time 19370
 Write; Address 10680; Value 10680; Time 19371
 Write; Address 10684; Value 10684; Time 19372
-Cache Miss0
 Write; Address 10688; Value 10688; Time 19473
 Write; Address 10692; Value 10692; Time 19474
 Write; Address 10696; Value 10696; Time 19475
@@ -5690,7 +5434,6 @@ Write; Address 10736; Value 10736; Time 19485
 Write; Address 10740; Value 10740; Time 19486
 Write; Address 10744; Value 10744; Time 19487
 Write; Address 10748; Value 10748; Time 19488
-Cache Miss0
 Write; Address 10752; Value 10752; Time 19589
 Write; Address 10756; Value 10756; Time 19590
 Write; Address 10760; Value 10760; Time 19591
@@ -5707,7 +5450,6 @@ Write; Address 10800; Value 10800; Time 19601
 Write; Address 10804; Value 10804; Time 19602
 Write; Address 10808; Value 10808; Time 19603
 Write; Address 10812; Value 10812; Time 19604
-Cache Miss0
 Write; Address 10816; Value 10816; Time 19705
 Write; Address 10820; Value 10820; Time 19706
 Write; Address 10824; Value 10824; Time 19707
@@ -5724,7 +5466,6 @@ Write; Address 10864; Value 10864; Time 19717
 Write; Address 10868; Value 10868; Time 19718
 Write; Address 10872; Value 10872; Time 19719
 Write; Address 10876; Value 10876; Time 19720
-Cache Miss0
 Write; Address 10880; Value 10880; Time 19821
 Write; Address 10884; Value 10884; Time 19822
 Write; Address 10888; Value 10888; Time 19823
@@ -5741,7 +5482,6 @@ Write; Address 10928; Value 10928; Time 19833
 Write; Address 10932; Value 10932; Time 19834
 Write; Address 10936; Value 10936; Time 19835
 Write; Address 10940; Value 10940; Time 19836
-Cache Miss0
 Write; Address 10944; Value 10944; Time 19937
 Write; Address 10948; Value 10948; Time 19938
 Write; Address 10952; Value 10952; Time 19939
@@ -5758,7 +5498,6 @@ Write; Address 10992; Value 10992; Time 19949
 Write; Address 10996; Value 10996; Time 19950
 Write; Address 11000; Value 11000; Time 19951
 Write; Address 11004; Value 11004; Time 19952
-Cache Miss0
 Write; Address 11008; Value 11008; Time 20053
 Write; Address 11012; Value 11012; Time 20054
 Write; Address 11016; Value 11016; Time 20055
@@ -5775,7 +5514,6 @@ Write; Address 11056; Value 11056; Time 20065
 Write; Address 11060; Value 11060; Time 20066
 Write; Address 11064; Value 11064; Time 20067
 Write; Address 11068; Value 11068; Time 20068
-Cache Miss0
 Write; Address 11072; Value 11072; Time 20169
 Write; Address 11076; Value 11076; Time 20170
 Write; Address 11080; Value 11080; Time 20171
@@ -5792,7 +5530,6 @@ Write; Address 11120; Value 11120; Time 20181
 Write; Address 11124; Value 11124; Time 20182
 Write; Address 11128; Value 11128; Time 20183
 Write; Address 11132; Value 11132; Time 20184
-Cache Miss0
 Write; Address 11136; Value 11136; Time 20285
 Write; Address 11140; Value 11140; Time 20286
 Write; Address 11144; Value 11144; Time 20287
@@ -5809,7 +5546,6 @@ Write; Address 11184; Value 11184; Time 20297
 Write; Address 11188; Value 11188; Time 20298
 Write; Address 11192; Value 11192; Time 20299
 Write; Address 11196; Value 11196; Time 20300
-Cache Miss0
 Write; Address 11200; Value 11200; Time 20401
 Write; Address 11204; Value 11204; Time 20402
 Write; Address 11208; Value 11208; Time 20403
@@ -5826,7 +5562,6 @@ Write; Address 11248; Value 11248; Time 20413
 Write; Address 11252; Value 11252; Time 20414
 Write; Address 11256; Value 11256; Time 20415
 Write; Address 11260; Value 11260; Time 20416
-Cache Miss0
 Write; Address 11264; Value 11264; Time 20517
 Write; Address 11268; Value 11268; Time 20518
 Write; Address 11272; Value 11272; Time 20519
@@ -5843,7 +5578,6 @@ Write; Address 11312; Value 11312; Time 20529
 Write; Address 11316; Value 11316; Time 20530
 Write; Address 11320; Value 11320; Time 20531
 Write; Address 11324; Value 11324; Time 20532
-Cache Miss0
 Write; Address 11328; Value 11328; Time 20633
 Write; Address 11332; Value 11332; Time 20634
 Write; Address 11336; Value 11336; Time 20635
@@ -5860,7 +5594,6 @@ Write; Address 11376; Value 11376; Time 20645
 Write; Address 11380; Value 11380; Time 20646
 Write; Address 11384; Value 11384; Time 20647
 Write; Address 11388; Value 11388; Time 20648
-Cache Miss0
 Write; Address 11392; Value 11392; Time 20749
 Write; Address 11396; Value 11396; Time 20750
 Write; Address 11400; Value 11400; Time 20751
@@ -5877,7 +5610,6 @@ Write; Address 11440; Value 11440; Time 20761
 Write; Address 11444; Value 11444; Time 20762
 Write; Address 11448; Value 11448; Time 20763
 Write; Address 11452; Value 11452; Time 20764
-Cache Miss0
 Write; Address 11456; Value 11456; Time 20865
 Write; Address 11460; Value 11460; Time 20866
 Write; Address 11464; Value 11464; Time 20867
@@ -5894,7 +5626,6 @@ Write; Address 11504; Value 11504; Time 20877
 Write; Address 11508; Value 11508; Time 20878
 Write; Address 11512; Value 11512; Time 20879
 Write; Address 11516; Value 11516; Time 20880
-Cache Miss0
 Write; Address 11520; Value 11520; Time 20981
 Write; Address 11524; Value 11524; Time 20982
 Write; Address 11528; Value 11528; Time 20983
@@ -5911,7 +5642,6 @@ Write; Address 11568; Value 11568; Time 20993
 Write; Address 11572; Value 11572; Time 20994
 Write; Address 11576; Value 11576; Time 20995
 Write; Address 11580; Value 11580; Time 20996
-Cache Miss0
 Write; Address 11584; Value 11584; Time 21097
 Write; Address 11588; Value 11588; Time 21098
 Write; Address 11592; Value 11592; Time 21099
@@ -5928,7 +5658,6 @@ Write; Address 11632; Value 11632; Time 21109
 Write; Address 11636; Value 11636; Time 21110
 Write; Address 11640; Value 11640; Time 21111
 Write; Address 11644; Value 11644; Time 21112
-Cache Miss0
 Write; Address 11648; Value 11648; Time 21213
 Write; Address 11652; Value 11652; Time 21214
 Write; Address 11656; Value 11656; Time 21215
@@ -5945,7 +5674,6 @@ Write; Address 11696; Value 11696; Time 21225
 Write; Address 11700; Value 11700; Time 21226
 Write; Address 11704; Value 11704; Time 21227
 Write; Address 11708; Value 11708; Time 21228
-Cache Miss0
 Write; Address 11712; Value 11712; Time 21329
 Write; Address 11716; Value 11716; Time 21330
 Write; Address 11720; Value 11720; Time 21331
@@ -5962,7 +5690,6 @@ Write; Address 11760; Value 11760; Time 21341
 Write; Address 11764; Value 11764; Time 21342
 Write; Address 11768; Value 11768; Time 21343
 Write; Address 11772; Value 11772; Time 21344
-Cache Miss0
 Write; Address 11776; Value 11776; Time 21445
 Write; Address 11780; Value 11780; Time 21446
 Write; Address 11784; Value 11784; Time 21447
@@ -5979,7 +5706,6 @@ Write; Address 11824; Value 11824; Time 21457
 Write; Address 11828; Value 11828; Time 21458
 Write; Address 11832; Value 11832; Time 21459
 Write; Address 11836; Value 11836; Time 21460
-Cache Miss0
 Write; Address 11840; Value 11840; Time 21561
 Write; Address 11844; Value 11844; Time 21562
 Write; Address 11848; Value 11848; Time 21563
@@ -5996,7 +5722,6 @@ Write; Address 11888; Value 11888; Time 21573
 Write; Address 11892; Value 11892; Time 21574
 Write; Address 11896; Value 11896; Time 21575
 Write; Address 11900; Value 11900; Time 21576
-Cache Miss0
 Write; Address 11904; Value 11904; Time 21677
 Write; Address 11908; Value 11908; Time 21678
 Write; Address 11912; Value 11912; Time 21679
@@ -6013,7 +5738,6 @@ Write; Address 11952; Value 11952; Time 21689
 Write; Address 11956; Value 11956; Time 21690
 Write; Address 11960; Value 11960; Time 21691
 Write; Address 11964; Value 11964; Time 21692
-Cache Miss0
 Write; Address 11968; Value 11968; Time 21793
 Write; Address 11972; Value 11972; Time 21794
 Write; Address 11976; Value 11976; Time 21795
@@ -6030,7 +5754,6 @@ Write; Address 12016; Value 12016; Time 21805
 Write; Address 12020; Value 12020; Time 21806
 Write; Address 12024; Value 12024; Time 21807
 Write; Address 12028; Value 12028; Time 21808
-Cache Miss0
 Write; Address 12032; Value 12032; Time 21909
 Write; Address 12036; Value 12036; Time 21910
 Write; Address 12040; Value 12040; Time 21911
@@ -6047,7 +5770,6 @@ Write; Address 12080; Value 12080; Time 21921
 Write; Address 12084; Value 12084; Time 21922
 Write; Address 12088; Value 12088; Time 21923
 Write; Address 12092; Value 12092; Time 21924
-Cache Miss0
 Write; Address 12096; Value 12096; Time 22025
 Write; Address 12100; Value 12100; Time 22026
 Write; Address 12104; Value 12104; Time 22027
@@ -6064,7 +5786,6 @@ Write; Address 12144; Value 12144; Time 22037
 Write; Address 12148; Value 12148; Time 22038
 Write; Address 12152; Value 12152; Time 22039
 Write; Address 12156; Value 12156; Time 22040
-Cache Miss0
 Write; Address 12160; Value 12160; Time 22141
 Write; Address 12164; Value 12164; Time 22142
 Write; Address 12168; Value 12168; Time 22143
@@ -6081,7 +5802,6 @@ Write; Address 12208; Value 12208; Time 22153
 Write; Address 12212; Value 12212; Time 22154
 Write; Address 12216; Value 12216; Time 22155
 Write; Address 12220; Value 12220; Time 22156
-Cache Miss0
 Write; Address 12224; Value 12224; Time 22257
 Write; Address 12228; Value 12228; Time 22258
 Write; Address 12232; Value 12232; Time 22259
@@ -6098,7 +5818,6 @@ Write; Address 12272; Value 12272; Time 22269
 Write; Address 12276; Value 12276; Time 22270
 Write; Address 12280; Value 12280; Time 22271
 Write; Address 12284; Value 12284; Time 22272
-Cache Miss0
 Write; Address 12288; Value 12288; Time 22373
 Write; Address 12292; Value 12292; Time 22374
 Write; Address 12296; Value 12296; Time 22375
@@ -6115,7 +5834,6 @@ Write; Address 12336; Value 12336; Time 22385
 Write; Address 12340; Value 12340; Time 22386
 Write; Address 12344; Value 12344; Time 22387
 Write; Address 12348; Value 12348; Time 22388
-Cache Miss0
 Write; Address 12352; Value 12352; Time 22489
 Write; Address 12356; Value 12356; Time 22490
 Write; Address 12360; Value 12360; Time 22491
@@ -6132,7 +5850,6 @@ Write; Address 12400; Value 12400; Time 22501
 Write; Address 12404; Value 12404; Time 22502
 Write; Address 12408; Value 12408; Time 22503
 Write; Address 12412; Value 12412; Time 22504
-Cache Miss0
 Write; Address 12416; Value 12416; Time 22605
 Write; Address 12420; Value 12420; Time 22606
 Write; Address 12424; Value 12424; Time 22607
@@ -6149,7 +5866,6 @@ Write; Address 12464; Value 12464; Time 22617
 Write; Address 12468; Value 12468; Time 22618
 Write; Address 12472; Value 12472; Time 22619
 Write; Address 12476; Value 12476; Time 22620
-Cache Miss0
 Write; Address 12480; Value 12480; Time 22721
 Write; Address 12484; Value 12484; Time 22722
 Write; Address 12488; Value 12488; Time 22723
@@ -6166,7 +5882,6 @@ Write; Address 12528; Value 12528; Time 22733
 Write; Address 12532; Value 12532; Time 22734
 Write; Address 12536; Value 12536; Time 22735
 Write; Address 12540; Value 12540; Time 22736
-Cache Miss0
 Write; Address 12544; Value 12544; Time 22837
 Write; Address 12548; Value 12548; Time 22838
 Write; Address 12552; Value 12552; Time 22839
@@ -6183,7 +5898,6 @@ Write; Address 12592; Value 12592; Time 22849
 Write; Address 12596; Value 12596; Time 22850
 Write; Address 12600; Value 12600; Time 22851
 Write; Address 12604; Value 12604; Time 22852
-Cache Miss0
 Write; Address 12608; Value 12608; Time 22953
 Write; Address 12612; Value 12612; Time 22954
 Write; Address 12616; Value 12616; Time 22955
@@ -6200,7 +5914,6 @@ Write; Address 12656; Value 12656; Time 22965
 Write; Address 12660; Value 12660; Time 22966
 Write; Address 12664; Value 12664; Time 22967
 Write; Address 12668; Value 12668; Time 22968
-Cache Miss0
 Write; Address 12672; Value 12672; Time 23069
 Write; Address 12676; Value 12676; Time 23070
 Write; Address 12680; Value 12680; Time 23071
@@ -6217,7 +5930,6 @@ Write; Address 12720; Value 12720; Time 23081
 Write; Address 12724; Value 12724; Time 23082
 Write; Address 12728; Value 12728; Time 23083
 Write; Address 12732; Value 12732; Time 23084
-Cache Miss0
 Write; Address 12736; Value 12736; Time 23185
 Write; Address 12740; Value 12740; Time 23186
 Write; Address 12744; Value 12744; Time 23187
@@ -6234,7 +5946,6 @@ Write; Address 12784; Value 12784; Time 23197
 Write; Address 12788; Value 12788; Time 23198
 Write; Address 12792; Value 12792; Time 23199
 Write; Address 12796; Value 12796; Time 23200
-Cache Miss0
 Write; Address 12800; Value 12800; Time 23301
 Write; Address 12804; Value 12804; Time 23302
 Write; Address 12808; Value 12808; Time 23303
@@ -6251,7 +5962,6 @@ Write; Address 12848; Value 12848; Time 23313
 Write; Address 12852; Value 12852; Time 23314
 Write; Address 12856; Value 12856; Time 23315
 Write; Address 12860; Value 12860; Time 23316
-Cache Miss0
 Write; Address 12864; Value 12864; Time 23417
 Write; Address 12868; Value 12868; Time 23418
 Write; Address 12872; Value 12872; Time 23419
@@ -6268,7 +5978,6 @@ Write; Address 12912; Value 12912; Time 23429
 Write; Address 12916; Value 12916; Time 23430
 Write; Address 12920; Value 12920; Time 23431
 Write; Address 12924; Value 12924; Time 23432
-Cache Miss0
 Write; Address 12928; Value 12928; Time 23533
 Write; Address 12932; Value 12932; Time 23534
 Write; Address 12936; Value 12936; Time 23535
@@ -6285,7 +5994,6 @@ Write; Address 12976; Value 12976; Time 23545
 Write; Address 12980; Value 12980; Time 23546
 Write; Address 12984; Value 12984; Time 23547
 Write; Address 12988; Value 12988; Time 23548
-Cache Miss0
 Write; Address 12992; Value 12992; Time 23649
 Write; Address 12996; Value 12996; Time 23650
 Write; Address 13000; Value 13000; Time 23651
@@ -6302,7 +6010,6 @@ Write; Address 13040; Value 13040; Time 23661
 Write; Address 13044; Value 13044; Time 23662
 Write; Address 13048; Value 13048; Time 23663
 Write; Address 13052; Value 13052; Time 23664
-Cache Miss0
 Write; Address 13056; Value 13056; Time 23765
 Write; Address 13060; Value 13060; Time 23766
 Write; Address 13064; Value 13064; Time 23767
@@ -6319,7 +6026,6 @@ Write; Address 13104; Value 13104; Time 23777
 Write; Address 13108; Value 13108; Time 23778
 Write; Address 13112; Value 13112; Time 23779
 Write; Address 13116; Value 13116; Time 23780
-Cache Miss0
 Write; Address 13120; Value 13120; Time 23881
 Write; Address 13124; Value 13124; Time 23882
 Write; Address 13128; Value 13128; Time 23883
@@ -6336,7 +6042,6 @@ Write; Address 13168; Value 13168; Time 23893
 Write; Address 13172; Value 13172; Time 23894
 Write; Address 13176; Value 13176; Time 23895
 Write; Address 13180; Value 13180; Time 23896
-Cache Miss0
 Write; Address 13184; Value 13184; Time 23997
 Write; Address 13188; Value 13188; Time 23998
 Write; Address 13192; Value 13192; Time 23999
@@ -6353,7 +6058,6 @@ Write; Address 13232; Value 13232; Time 24009
 Write; Address 13236; Value 13236; Time 24010
 Write; Address 13240; Value 13240; Time 24011
 Write; Address 13244; Value 13244; Time 24012
-Cache Miss0
 Write; Address 13248; Value 13248; Time 24113
 Write; Address 13252; Value 13252; Time 24114
 Write; Address 13256; Value 13256; Time 24115
@@ -6370,7 +6074,6 @@ Write; Address 13296; Value 13296; Time 24125
 Write; Address 13300; Value 13300; Time 24126
 Write; Address 13304; Value 13304; Time 24127
 Write; Address 13308; Value 13308; Time 24128
-Cache Miss0
 Write; Address 13312; Value 13312; Time 24229
 Write; Address 13316; Value 13316; Time 24230
 Write; Address 13320; Value 13320; Time 24231
@@ -6387,7 +6090,6 @@ Write; Address 13360; Value 13360; Time 24241
 Write; Address 13364; Value 13364; Time 24242
 Write; Address 13368; Value 13368; Time 24243
 Write; Address 13372; Value 13372; Time 24244
-Cache Miss0
 Write; Address 13376; Value 13376; Time 24345
 Write; Address 13380; Value 13380; Time 24346
 Write; Address 13384; Value 13384; Time 24347
@@ -6404,7 +6106,6 @@ Write; Address 13424; Value 13424; Time 24357
 Write; Address 13428; Value 13428; Time 24358
 Write; Address 13432; Value 13432; Time 24359
 Write; Address 13436; Value 13436; Time 24360
-Cache Miss0
 Write; Address 13440; Value 13440; Time 24461
 Write; Address 13444; Value 13444; Time 24462
 Write; Address 13448; Value 13448; Time 24463
@@ -6421,7 +6122,6 @@ Write; Address 13488; Value 13488; Time 24473
 Write; Address 13492; Value 13492; Time 24474
 Write; Address 13496; Value 13496; Time 24475
 Write; Address 13500; Value 13500; Time 24476
-Cache Miss0
 Write; Address 13504; Value 13504; Time 24577
 Write; Address 13508; Value 13508; Time 24578
 Write; Address 13512; Value 13512; Time 24579
@@ -6438,7 +6138,6 @@ Write; Address 13552; Value 13552; Time 24589
 Write; Address 13556; Value 13556; Time 24590
 Write; Address 13560; Value 13560; Time 24591
 Write; Address 13564; Value 13564; Time 24592
-Cache Miss0
 Write; Address 13568; Value 13568; Time 24693
 Write; Address 13572; Value 13572; Time 24694
 Write; Address 13576; Value 13576; Time 24695
@@ -6455,7 +6154,6 @@ Write; Address 13616; Value 13616; Time 24705
 Write; Address 13620; Value 13620; Time 24706
 Write; Address 13624; Value 13624; Time 24707
 Write; Address 13628; Value 13628; Time 24708
-Cache Miss0
 Write; Address 13632; Value 13632; Time 24809
 Write; Address 13636; Value 13636; Time 24810
 Write; Address 13640; Value 13640; Time 24811
@@ -6472,7 +6170,6 @@ Write; Address 13680; Value 13680; Time 24821
 Write; Address 13684; Value 13684; Time 24822
 Write; Address 13688; Value 13688; Time 24823
 Write; Address 13692; Value 13692; Time 24824
-Cache Miss0
 Write; Address 13696; Value 13696; Time 24925
 Write; Address 13700; Value 13700; Time 24926
 Write; Address 13704; Value 13704; Time 24927
@@ -6489,7 +6186,6 @@ Write; Address 13744; Value 13744; Time 24937
 Write; Address 13748; Value 13748; Time 24938
 Write; Address 13752; Value 13752; Time 24939
 Write; Address 13756; Value 13756; Time 24940
-Cache Miss0
 Write; Address 13760; Value 13760; Time 25041
 Write; Address 13764; Value 13764; Time 25042
 Write; Address 13768; Value 13768; Time 25043
@@ -6506,7 +6202,6 @@ Write; Address 13808; Value 13808; Time 25053
 Write; Address 13812; Value 13812; Time 25054
 Write; Address 13816; Value 13816; Time 25055
 Write; Address 13820; Value 13820; Time 25056
-Cache Miss0
 Write; Address 13824; Value 13824; Time 25157
 Write; Address 13828; Value 13828; Time 25158
 Write; Address 13832; Value 13832; Time 25159
@@ -6523,7 +6218,6 @@ Write; Address 13872; Value 13872; Time 25169
 Write; Address 13876; Value 13876; Time 25170
 Write; Address 13880; Value 13880; Time 25171
 Write; Address 13884; Value 13884; Time 25172
-Cache Miss0
 Write; Address 13888; Value 13888; Time 25273
 Write; Address 13892; Value 13892; Time 25274
 Write; Address 13896; Value 13896; Time 25275
@@ -6540,7 +6234,6 @@ Write; Address 13936; Value 13936; Time 25285
 Write; Address 13940; Value 13940; Time 25286
 Write; Address 13944; Value 13944; Time 25287
 Write; Address 13948; Value 13948; Time 25288
-Cache Miss0
 Write; Address 13952; Value 13952; Time 25389
 Write; Address 13956; Value 13956; Time 25390
 Write; Address 13960; Value 13960; Time 25391
@@ -6557,7 +6250,6 @@ Write; Address 14000; Value 14000; Time 25401
 Write; Address 14004; Value 14004; Time 25402
 Write; Address 14008; Value 14008; Time 25403
 Write; Address 14012; Value 14012; Time 25404
-Cache Miss0
 Write; Address 14016; Value 14016; Time 25505
 Write; Address 14020; Value 14020; Time 25506
 Write; Address 14024; Value 14024; Time 25507
@@ -6574,7 +6266,6 @@ Write; Address 14064; Value 14064; Time 25517
 Write; Address 14068; Value 14068; Time 25518
 Write; Address 14072; Value 14072; Time 25519
 Write; Address 14076; Value 14076; Time 25520
-Cache Miss0
 Write; Address 14080; Value 14080; Time 25621
 Write; Address 14084; Value 14084; Time 25622
 Write; Address 14088; Value 14088; Time 25623
@@ -6591,7 +6282,6 @@ Write; Address 14128; Value 14128; Time 25633
 Write; Address 14132; Value 14132; Time 25634
 Write; Address 14136; Value 14136; Time 25635
 Write; Address 14140; Value 14140; Time 25636
-Cache Miss0
 Write; Address 14144; Value 14144; Time 25737
 Write; Address 14148; Value 14148; Time 25738
 Write; Address 14152; Value 14152; Time 25739
@@ -6608,7 +6298,6 @@ Write; Address 14192; Value 14192; Time 25749
 Write; Address 14196; Value 14196; Time 25750
 Write; Address 14200; Value 14200; Time 25751
 Write; Address 14204; Value 14204; Time 25752
-Cache Miss0
 Write; Address 14208; Value 14208; Time 25853
 Write; Address 14212; Value 14212; Time 25854
 Write; Address 14216; Value 14216; Time 25855
@@ -6625,7 +6314,6 @@ Write; Address 14256; Value 14256; Time 25865
 Write; Address 14260; Value 14260; Time 25866
 Write; Address 14264; Value 14264; Time 25867
 Write; Address 14268; Value 14268; Time 25868
-Cache Miss0
 Write; Address 14272; Value 14272; Time 25969
 Write; Address 14276; Value 14276; Time 25970
 Write; Address 14280; Value 14280; Time 25971
@@ -6642,7 +6330,6 @@ Write; Address 14320; Value 14320; Time 25981
 Write; Address 14324; Value 14324; Time 25982
 Write; Address 14328; Value 14328; Time 25983
 Write; Address 14332; Value 14332; Time 25984
-Cache Miss0
 Write; Address 14336; Value 14336; Time 26085
 Write; Address 14340; Value 14340; Time 26086
 Write; Address 14344; Value 14344; Time 26087
@@ -6659,7 +6346,6 @@ Write; Address 14384; Value 14384; Time 26097
 Write; Address 14388; Value 14388; Time 26098
 Write; Address 14392; Value 14392; Time 26099
 Write; Address 14396; Value 14396; Time 26100
-Cache Miss0
 Write; Address 14400; Value 14400; Time 26201
 Write; Address 14404; Value 14404; Time 26202
 Write; Address 14408; Value 14408; Time 26203
@@ -6676,7 +6362,6 @@ Write; Address 14448; Value 14448; Time 26213
 Write; Address 14452; Value 14452; Time 26214
 Write; Address 14456; Value 14456; Time 26215
 Write; Address 14460; Value 14460; Time 26216
-Cache Miss0
 Write; Address 14464; Value 14464; Time 26317
 Write; Address 14468; Value 14468; Time 26318
 Write; Address 14472; Value 14472; Time 26319
@@ -6693,7 +6378,6 @@ Write; Address 14512; Value 14512; Time 26329
 Write; Address 14516; Value 14516; Time 26330
 Write; Address 14520; Value 14520; Time 26331
 Write; Address 14524; Value 14524; Time 26332
-Cache Miss0
 Write; Address 14528; Value 14528; Time 26433
 Write; Address 14532; Value 14532; Time 26434
 Write; Address 14536; Value 14536; Time 26435
@@ -6710,7 +6394,6 @@ Write; Address 14576; Value 14576; Time 26445
 Write; Address 14580; Value 14580; Time 26446
 Write; Address 14584; Value 14584; Time 26447
 Write; Address 14588; Value 14588; Time 26448
-Cache Miss0
 Write; Address 14592; Value 14592; Time 26549
 Write; Address 14596; Value 14596; Time 26550
 Write; Address 14600; Value 14600; Time 26551
@@ -6727,7 +6410,6 @@ Write; Address 14640; Value 14640; Time 26561
 Write; Address 14644; Value 14644; Time 26562
 Write; Address 14648; Value 14648; Time 26563
 Write; Address 14652; Value 14652; Time 26564
-Cache Miss0
 Write; Address 14656; Value 14656; Time 26665
 Write; Address 14660; Value 14660; Time 26666
 Write; Address 14664; Value 14664; Time 26667
@@ -6744,7 +6426,6 @@ Write; Address 14704; Value 14704; Time 26677
 Write; Address 14708; Value 14708; Time 26678
 Write; Address 14712; Value 14712; Time 26679
 Write; Address 14716; Value 14716; Time 26680
-Cache Miss0
 Write; Address 14720; Value 14720; Time 26781
 Write; Address 14724; Value 14724; Time 26782
 Write; Address 14728; Value 14728; Time 26783
@@ -6761,7 +6442,6 @@ Write; Address 14768; Value 14768; Time 26793
 Write; Address 14772; Value 14772; Time 26794
 Write; Address 14776; Value 14776; Time 26795
 Write; Address 14780; Value 14780; Time 26796
-Cache Miss0
 Write; Address 14784; Value 14784; Time 26897
 Write; Address 14788; Value 14788; Time 26898
 Write; Address 14792; Value 14792; Time 26899
@@ -6778,7 +6458,6 @@ Write; Address 14832; Value 14832; Time 26909
 Write; Address 14836; Value 14836; Time 26910
 Write; Address 14840; Value 14840; Time 26911
 Write; Address 14844; Value 14844; Time 26912
-Cache Miss0
 Write; Address 14848; Value 14848; Time 27013
 Write; Address 14852; Value 14852; Time 27014
 Write; Address 14856; Value 14856; Time 27015
@@ -6795,7 +6474,6 @@ Write; Address 14896; Value 14896; Time 27025
 Write; Address 14900; Value 14900; Time 27026
 Write; Address 14904; Value 14904; Time 27027
 Write; Address 14908; Value 14908; Time 27028
-Cache Miss0
 Write; Address 14912; Value 14912; Time 27129
 Write; Address 14916; Value 14916; Time 27130
 Write; Address 14920; Value 14920; Time 27131
@@ -6812,7 +6490,6 @@ Write; Address 14960; Value 14960; Time 27141
 Write; Address 14964; Value 14964; Time 27142
 Write; Address 14968; Value 14968; Time 27143
 Write; Address 14972; Value 14972; Time 27144
-Cache Miss0
 Write; Address 14976; Value 14976; Time 27245
 Write; Address 14980; Value 14980; Time 27246
 Write; Address 14984; Value 14984; Time 27247
@@ -6829,7 +6506,6 @@ Write; Address 15024; Value 15024; Time 27257
 Write; Address 15028; Value 15028; Time 27258
 Write; Address 15032; Value 15032; Time 27259
 Write; Address 15036; Value 15036; Time 27260
-Cache Miss0
 Write; Address 15040; Value 15040; Time 27361
 Write; Address 15044; Value 15044; Time 27362
 Write; Address 15048; Value 15048; Time 27363
@@ -6846,7 +6522,6 @@ Write; Address 15088; Value 15088; Time 27373
 Write; Address 15092; Value 15092; Time 27374
 Write; Address 15096; Value 15096; Time 27375
 Write; Address 15100; Value 15100; Time 27376
-Cache Miss0
 Write; Address 15104; Value 15104; Time 27477
 Write; Address 15108; Value 15108; Time 27478
 Write; Address 15112; Value 15112; Time 27479
@@ -6863,7 +6538,6 @@ Write; Address 15152; Value 15152; Time 27489
 Write; Address 15156; Value 15156; Time 27490
 Write; Address 15160; Value 15160; Time 27491
 Write; Address 15164; Value 15164; Time 27492
-Cache Miss0
 Write; Address 15168; Value 15168; Time 27593
 Write; Address 15172; Value 15172; Time 27594
 Write; Address 15176; Value 15176; Time 27595
@@ -6880,7 +6554,6 @@ Write; Address 15216; Value 15216; Time 27605
 Write; Address 15220; Value 15220; Time 27606
 Write; Address 15224; Value 15224; Time 27607
 Write; Address 15228; Value 15228; Time 27608
-Cache Miss0
 Write; Address 15232; Value 15232; Time 27709
 Write; Address 15236; Value 15236; Time 27710
 Write; Address 15240; Value 15240; Time 27711
@@ -6897,7 +6570,6 @@ Write; Address 15280; Value 15280; Time 27721
 Write; Address 15284; Value 15284; Time 27722
 Write; Address 15288; Value 15288; Time 27723
 Write; Address 15292; Value 15292; Time 27724
-Cache Miss0
 Write; Address 15296; Value 15296; Time 27825
 Write; Address 15300; Value 15300; Time 27826
 Write; Address 15304; Value 15304; Time 27827
@@ -6914,7 +6586,6 @@ Write; Address 15344; Value 15344; Time 27837
 Write; Address 15348; Value 15348; Time 27838
 Write; Address 15352; Value 15352; Time 27839
 Write; Address 15356; Value 15356; Time 27840
-Cache Miss0
 Write; Address 15360; Value 15360; Time 27941
 Write; Address 15364; Value 15364; Time 27942
 Write; Address 15368; Value 15368; Time 27943
@@ -6931,7 +6602,6 @@ Write; Address 15408; Value 15408; Time 27953
 Write; Address 15412; Value 15412; Time 27954
 Write; Address 15416; Value 15416; Time 27955
 Write; Address 15420; Value 15420; Time 27956
-Cache Miss0
 Write; Address 15424; Value 15424; Time 28057
 Write; Address 15428; Value 15428; Time 28058
 Write; Address 15432; Value 15432; Time 28059
@@ -6948,7 +6618,6 @@ Write; Address 15472; Value 15472; Time 28069
 Write; Address 15476; Value 15476; Time 28070
 Write; Address 15480; Value 15480; Time 28071
 Write; Address 15484; Value 15484; Time 28072
-Cache Miss0
 Write; Address 15488; Value 15488; Time 28173
 Write; Address 15492; Value 15492; Time 28174
 Write; Address 15496; Value 15496; Time 28175
@@ -6965,7 +6634,6 @@ Write; Address 15536; Value 15536; Time 28185
 Write; Address 15540; Value 15540; Time 28186
 Write; Address 15544; Value 15544; Time 28187
 Write; Address 15548; Value 15548; Time 28188
-Cache Miss0
 Write; Address 15552; Value 15552; Time 28289
 Write; Address 15556; Value 15556; Time 28290
 Write; Address 15560; Value 15560; Time 28291
@@ -6982,7 +6650,6 @@ Write; Address 15600; Value 15600; Time 28301
 Write; Address 15604; Value 15604; Time 28302
 Write; Address 15608; Value 15608; Time 28303
 Write; Address 15612; Value 15612; Time 28304
-Cache Miss0
 Write; Address 15616; Value 15616; Time 28405
 Write; Address 15620; Value 15620; Time 28406
 Write; Address 15624; Value 15624; Time 28407
@@ -6999,7 +6666,6 @@ Write; Address 15664; Value 15664; Time 28417
 Write; Address 15668; Value 15668; Time 28418
 Write; Address 15672; Value 15672; Time 28419
 Write; Address 15676; Value 15676; Time 28420
-Cache Miss0
 Write; Address 15680; Value 15680; Time 28521
 Write; Address 15684; Value 15684; Time 28522
 Write; Address 15688; Value 15688; Time 28523
@@ -7016,7 +6682,6 @@ Write; Address 15728; Value 15728; Time 28533
 Write; Address 15732; Value 15732; Time 28534
 Write; Address 15736; Value 15736; Time 28535
 Write; Address 15740; Value 15740; Time 28536
-Cache Miss0
 Write; Address 15744; Value 15744; Time 28637
 Write; Address 15748; Value 15748; Time 28638
 Write; Address 15752; Value 15752; Time 28639
@@ -7033,7 +6698,6 @@ Write; Address 15792; Value 15792; Time 28649
 Write; Address 15796; Value 15796; Time 28650
 Write; Address 15800; Value 15800; Time 28651
 Write; Address 15804; Value 15804; Time 28652
-Cache Miss0
 Write; Address 15808; Value 15808; Time 28753
 Write; Address 15812; Value 15812; Time 28754
 Write; Address 15816; Value 15816; Time 28755
@@ -7050,7 +6714,6 @@ Write; Address 15856; Value 15856; Time 28765
 Write; Address 15860; Value 15860; Time 28766
 Write; Address 15864; Value 15864; Time 28767
 Write; Address 15868; Value 15868; Time 28768
-Cache Miss0
 Write; Address 15872; Value 15872; Time 28869
 Write; Address 15876; Value 15876; Time 28870
 Write; Address 15880; Value 15880; Time 28871
@@ -7067,7 +6730,6 @@ Write; Address 15920; Value 15920; Time 28881
 Write; Address 15924; Value 15924; Time 28882
 Write; Address 15928; Value 15928; Time 28883
 Write; Address 15932; Value 15932; Time 28884
-Cache Miss0
 Write; Address 15936; Value 15936; Time 28985
 Write; Address 15940; Value 15940; Time 28986
 Write; Address 15944; Value 15944; Time 28987
@@ -7084,7 +6746,6 @@ Write; Address 15984; Value 15984; Time 28997
 Write; Address 15988; Value 15988; Time 28998
 Write; Address 15992; Value 15992; Time 28999
 Write; Address 15996; Value 15996; Time 29000
-Cache Miss0
 Write; Address 16000; Value 16000; Time 29101
 Write; Address 16004; Value 16004; Time 29102
 Write; Address 16008; Value 16008; Time 29103
@@ -7101,7 +6762,6 @@ Write; Address 16048; Value 16048; Time 29113
 Write; Address 16052; Value 16052; Time 29114
 Write; Address 16056; Value 16056; Time 29115
 Write; Address 16060; Value 16060; Time 29116
-Cache Miss0
 Write; Address 16064; Value 16064; Time 29217
 Write; Address 16068; Value 16068; Time 29218
 Write; Address 16072; Value 16072; Time 29219
@@ -7118,7 +6778,6 @@ Write; Address 16112; Value 16112; Time 29229
 Write; Address 16116; Value 16116; Time 29230
 Write; Address 16120; Value 16120; Time 29231
 Write; Address 16124; Value 16124; Time 29232
-Cache Miss0
 Write; Address 16128; Value 16128; Time 29333
 Write; Address 16132; Value 16132; Time 29334
 Write; Address 16136; Value 16136; Time 29335
@@ -7135,7 +6794,6 @@ Write; Address 16176; Value 16176; Time 29345
 Write; Address 16180; Value 16180; Time 29346
 Write; Address 16184; Value 16184; Time 29347
 Write; Address 16188; Value 16188; Time 29348
-Cache Miss0
 Write; Address 16192; Value 16192; Time 29449
 Write; Address 16196; Value 16196; Time 29450
 Write; Address 16200; Value 16200; Time 29451
@@ -7152,7 +6810,6 @@ Write; Address 16240; Value 16240; Time 29461
 Write; Address 16244; Value 16244; Time 29462
 Write; Address 16248; Value 16248; Time 29463
 Write; Address 16252; Value 16252; Time 29464
-Cache Miss0
 Write; Address 16256; Value 16256; Time 29565
 Write; Address 16260; Value 16260; Time 29566
 Write; Address 16264; Value 16264; Time 29567
@@ -7169,7 +6826,6 @@ Write; Address 16304; Value 16304; Time 29577
 Write; Address 16308; Value 16308; Time 29578
 Write; Address 16312; Value 16312; Time 29579
 Write; Address 16316; Value 16316; Time 29580
-Cache Miss0
 Write; Address 16320; Value 16320; Time 29681
 Write; Address 16324; Value 16324; Time 29682
 Write; Address 16328; Value 16328; Time 29683

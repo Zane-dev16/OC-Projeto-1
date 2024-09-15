@@ -6,7 +6,6 @@ uint8_t DRAM[DRAM_SIZE];
 uint32_t time;
 Cache SimpleCache;
 
-
 /**************** Time Manipulation ***************/
 void resetTime() { time = 0; }
 
@@ -63,6 +62,14 @@ uint32_t getMemAddress(uint32_t address) {
     return MemAddress;
 }
 
+uint32_t getMemAddressFromCacheInfo(uint32_t Tag, uint32_t index) {
+    uint32_t MemAddress;
+    MemAddress = Tag << getNumIndexBits(L1_SIZE);        
+    MemAddress = MemAddress | index;
+    MemAddress = MemAddress << getNumBlockOffsetBits();
+    return MemAddress; 
+}
+
 
 void accessL1(uint32_t address, uint8_t *data, uint32_t mode) {
 
@@ -87,12 +94,11 @@ void accessL1(uint32_t address, uint8_t *data, uint32_t mode) {
     CacheLine *Line = &SimpleCache.lines[index];
 
     /* access Cache*/
-
     if (!Line->Valid || Line->Tag != Tag) {         // if block not present - miss
         accessDRAM(MemAddress, TempBlock, MODE_READ); // get new block from DRAM
 
         if ((Line->Valid) && (Line->Dirty)) { // line has dirty block
-            MemAddress = Line->Tag << 3;        // get address of the block in memory
+            MemAddress = getMemAddressFromCacheInfo(Line->Tag, index);
             accessDRAM(MemAddress, &(L1Cache[CacheBlockIndex]), MODE_WRITE); // then write back old block
         }
 
