@@ -6,6 +6,7 @@ uint8_t DRAM[DRAM_SIZE];
 uint32_t time;
 Cache SimpleCache;
 
+
 /**************** Time Manipulation ***************/
 void resetTime() { time = 0; }
 
@@ -37,11 +38,11 @@ uint32_t createBitMask(uint32_t bits) {
 }
 
 uint32_t getNumIndexBits(uint32_t cacheSize) {
-    return log2(cacheSize / BLOCK_SIZE); 
+    return (uint32_t)log2(cacheSize / BLOCK_SIZE); 
 }
 
 uint32_t getNumBlockOffsetBits() {
-    return log2(BLOCK_SIZE); 
+    return (uint32_t)log2(BLOCK_SIZE); 
 }
 
 uint32_t getTag(uint32_t address) {
@@ -88,14 +89,6 @@ void accessL1(uint32_t address, uint8_t *data, uint32_t mode) {
     /* access Cache*/
 
     if (!Line->Valid || Line->Tag != Tag) {         // if block not present - miss
-        printf("Cache Miss");
-        if (Line->Tag != Tag) {
-            printf("Line Tag: %d\n", Line->Tag);
-            printf("Address Tag: %d\n", Tag);
-        }
-        else {
-            printf("%d\n", 15 >> 4);
-        }
         accessDRAM(MemAddress, TempBlock, MODE_READ); // get new block from DRAM
 
         if ((Line->Valid) && (Line->Dirty)) { // line has dirty block

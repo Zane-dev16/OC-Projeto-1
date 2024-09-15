@@ -1,9 +1,9 @@
 CC = gcc
 CFLAGS=-Wall -Wextra
-TARGET=SimpleCache
+TARGET=L1Cache
 
 all:
-	$(CC) $(CFLAGS) SimpleProgram.c L1Cache.c -o $(TARGET)
+	$(CC) $(CFLAGS) L1Program.c L1Cache.c -o $(TARGET)
 
 clean:
 	rm $(TARGET)
