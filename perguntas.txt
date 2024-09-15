@@ -19,7 +19,13 @@ muito na explicação de mapeameto direto e falar diretamente da implementação
 com o stor o que ele quer no relatório seria mt bom). 
 "Duas paginas é muito pequeno para um relatorio de 3 caches, o que é que o stor prioriza no relatorio?"
 
+6. Precisamos de criar docstrings?
 
+7. Como é que tratamos dos seguintes:
+- Aceder a um endereço que não existe (ex: 0x80000000).
+- Aceder a um endereço que calha no meio do word.
+
+E outros erros em total. (Fazemos printf e exit?)
 
 Notes and possible issues (Não são cenas para perguntar ao stor):
 
