@@ -3,14 +3,18 @@ Questions:
 1. Podemos supor que todos os tamanhos são potenciais de 2?
 (Isto é importante que, se for verdade podemos apenas fazer por ex: bitmask = BLOCKSIZES - 1, e muitos
 outros casos em que o calcúlo é mais simples)
+    Sim mas amanhã confirma
 
 2. Visto que pelo enunciado: "All the programs developed should be configurable via the Cache.h header".
 e o código base foi escrito com uint_32 podemos assumir que
 o tamanho do dram nunca vai ser tão grande que os endereços excedem 32 bits?
+    Esta sempre bem alinhado
 
 3. Podemos criar novos constants ou nao é ideal?
+    Se for preciso o professor não vê problema
 
 4. Criar relatório em inglês ou em portugues?
+    Disse que era igual, pode ser em português do que sabe
 
 5. (Eu realmente não sei o que é suposto colocar no relatorio, com o que escrevi no relatório
 da explicacao da implementação de mapeamento direto
@@ -18,16 +22,20 @@ aquele já ocupa as duas páginas e o relatório é suposto ser apenas 2 página
 muito na explicação de mapeameto direto e falar diretamente da implementação. Mas é whatever. Se conseguirem eslarecer
 com o stor o que ele quer no relatório seria mt bom). 
 "Duas paginas é muito pequeno para um relatorio de 3 caches, o que é que o stor prioriza no relatorio?"
+    Só explicar resumidamente o que se fez em cada
 
 6. Precisamos de criar docstrings?
+    Pensa que não vai ser avaliado (amanhã confirma)
 
 7. Como é que tratamos dos seguintes:
 - Aceder a um endereço que não existe (ex: 0x80000000).
 - Aceder a um endereço que calha no meio do word.
+    Pensa que esses casos não são avaliados
 
 E outros erros em total. (Fazemos printf e exit?)
 
 Notes and possible issues (Não são cenas para perguntar ao stor):
 
 1. Linked lists ou outro tipo de estrutura para os caches?
+    Array está correto
 
