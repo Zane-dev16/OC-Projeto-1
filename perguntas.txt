@@ -38,4 +38,3 @@ Notes and possible issues (Não são cenas para perguntar ao stor):
 
 1. Linked lists ou outro tipo de estrutura para os caches?
     Array está correto
-
