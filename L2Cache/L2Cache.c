@@ -32,7 +32,7 @@ void accessDRAM(uint32_t address, uint8_t *data, uint32_t mode) {
 
 /*********************** Caches *************************/
 
-void initCache(Cache *cache) { cache.init = 0; }
+void initCache(Cache *cache) { cache->init = 0; }
 
 uint32_t createBitMask(uint32_t bits) {
     return ((1 << bits) - 1); 
@@ -46,12 +46,12 @@ uint32_t getNumBlockOffsetBits() {
     return (uint32_t)log2(BLOCK_SIZE); 
 }
 
-uint32_t getTag(uint32_t address) {
-    return address >> (getNumBlockOffsetBits() + getNumIndexBits(L1_SIZE));
+uint32_t getTag(uint32_t address, uint32_t cacheSize) {
+    return address >> (getNumBlockOffsetBits() + getNumIndexBits(cacheSize));
 }
 
-uint32_t getL1Index(uint32_t address) {
-    return (address >> getNumBlockOffsetBits()) & createBitMask(getNumIndexBits(L1_SIZE));
+uint32_t getIndex(uint32_t address, uint32_t cacheSize) {
+    return (address >> getNumBlockOffsetBits()) & createBitMask(getNumIndexBits(cacheSize));
 }
 
 uint32_t getBlockOffset(uint32_t address) {
@@ -78,7 +78,7 @@ void accessCache(Cache *cache, uint8_t *cacheData, uint32_t address, uint8_t *da
 
     /* init cache */
     if (cache->init == 0) {
-        for (int i = 0; i < cacheSize / BLOCK_SIZE; i++) {
+        for (uint32_t i = 0; i < cacheSize / BLOCK_SIZE; i++) {
             cache->lines[i].Valid = 0;
         }
         cache->init = 1;
