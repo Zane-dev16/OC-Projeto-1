@@ -32,7 +32,14 @@ void accessDRAM(uint32_t address, uint8_t *data, uint32_t mode) {
 
 /*********************** Caches *************************/
 
-void initCache(Cache *cache) { cache->init = 0; }
+void initCache(Cache *cache, uint32_t cacheSize) {
+    if (cache->init == 0) {
+        for (uint32_t i = 0; i < cacheSize / BLOCK_SIZE; i++) {
+            cache->lines[i].Valid = 0;  // invalid
+        }
+        cache->init = 1;
+    }
+}
 
 uint32_t createBitMask(uint32_t bits) {
     return ((1 << bits) - 1); 
@@ -64,7 +71,9 @@ uint32_t getMemAddress(uint32_t address) {
     return MemAddress;
 }
 
-void accessCache(Cache *cache, uint8_t *cacheData, uint32_t address, uint8_t *data, uint32_t mode, uint32_t cacheSize, uint32_t readTime, uint32_t writeTime) {
+/*********************** Cache L1 *************************/
+
+void accessL1Cache(uint32_t address, uint8_t *data, uint32_t mode) {
 
     uint32_t index, Tag, MemAddress, BlockOffset, CacheBlockIndex, CacheDataIndex;
     uint8_t TempBlock[BLOCK_SIZE];
@@ -77,12 +86,53 @@ void accessCache(Cache *cache, uint8_t *cacheData, uint32_t address, uint8_t *da
     CacheDataIndex = CacheBlockIndex + BlockOffset;
 
     /* init cache */
-    if (cache->init == 0) {
-        for (uint32_t i = 0; i < cacheSize / BLOCK_SIZE; i++) {
-            cache->lines[i].Valid = 0;
+    initCache(&SimpleCacheL1, L1_SIZE);
+
+    CacheLine *Line = &cache->lines[index];
+
+    /* access Cachen */
+    if (!Line->Valid || Line->Tag != Tag) {             // if block not present - miss
+        accessL2Cache(address, tempBlock, MODE_READ);   // get new block from L2
+
+        if ((Line->Valid) && (Line->Dirty)) {           // line has dirty block
+            MemAddress = Line->Tag << 3;
+            accessDRAM(MemAddress, &(cacheData[CacheBlockIndex]), MODE_WRITE);  // then write back old block
         }
-        cache->init = 1;
+
+        memcpy(&(L1Cache[cacheBlockIndex]), tempBlock, BLOCK_SIZE); // copy new block to L1
+        Line->Valid = 1;
+        Line->Tag = Tag;
+        Line->Dirty = 0;
     }
+
+    if (mode == MODE_READ) {    // read data from cache line
+        memcpy(data, &(L1Cache[cacheDataIndex]), WORD_SIZE);
+        time += L1_READ_TIME;
+    }
+
+    if (mode == MODE_WRITE) { // write data to cache
+        memcpy(&(L1Cache[cacheDataIndex]), data, WORD_SIZE);
+        time += L1_WRITE_TIME;
+        line->Dirty = 1;
+    }
+}
+
+/*********************** Cache L2 *************************/
+
+void accessL2Cache(uint32_t address, uint8_t *data, uint32_t mode) {
+
+    uint32_t index, Tag, MemAddress, BlockOffset, CacheBlockIndex, CacheDataIndex;
+    uint8_t TempBlock[BLOCK_SIZE];
+
+    index = getIndex(address, cacheSize);
+    Tag = getTag(address, cacheSize);
+    MemAddress = getMemAddress(address);
+    BlockOffset = getBlockOffset(address);
+    CacheBlockIndex = index * BLOCK_SIZE;
+    CacheDataIndex = CacheBlockIndex + BlockOffset;
+
+    /* init cache */
+    initCache(&SimpleCacheL2, L2_SIZE);
 
     CacheLine *Line = &cache->lines[index];
 
@@ -91,55 +141,53 @@ void accessCache(Cache *cache, uint8_t *cacheData, uint32_t address, uint8_t *da
         accessDRAM(MemAddress, TempBlock, MODE_READ);   // get new block from DRAM
 
         if ((Line->Valid) && (Line->Dirty)) {           // line has dirty block
-            MemAddress = Line->Tag << 3;                // get address of the block in memory
+            MemAddress = Line->Tag << 3;
             accessDRAM(MemAddress, &(cacheData[CacheBlockIndex]), MODE_WRITE);  // then write back old block
         }
 
-        memcpy(&(cacheData[CacheBlockIndex]), TempBlock,
-                BLOCK_SIZE); // copy new block to cache line
+        memcpy(&(L2Cache[cacheBlockIndex]), tempBlock, BLOCK_SIZE); // copy new block to L2
         Line->Valid = 1;
         Line->Tag = Tag;
         Line->Dirty = 0;
-    } // if miss, then replaced with the correct block
-
-    if (mode == MODE_READ) {    // read data from cache line
-        memcpy(data, &(cacheData[CacheDataIndex]), WORD_SIZE);
-        time += readTime;
     }
 
-    if (mode == MODE_WRITE) { // write data from cache line
-        memcpy(&(cacheData[CacheDataIndex]), data, WORD_SIZE);
-        time += writeTime;
-        Line->Dirty = 1;
+    if (mode == MODE_READ) {    // read data from cache line
+        memcpy(data, &(L2Cache[cacheDataIndex]), WORD_SIZE);
+        time += L2_READ_TIME;
+    }
+
+    if (mode == MODE_WRITE) { // write data to cache
+        memcpy(&(L2Cache[cacheDataIndex]), data, WORD_SIZE);
+        time += L2_WRITE_TIME;
+        line->Dirty = 1;
     }
 }
 
 void cachesAccessesHandler(uint32_t address, uint8_t *data, uint32_t mode) {
 
     // access L1
-    accessCache(&SimpleCacheL1, L1Cache, address, data, mode, L1_SIZE, L1_READ_TIME, L1_WRITE_TIME);
+    accessL1Cache(address, data, mode);
 
     // check miss
-    if (SimpleCacheL1.lines[getIndex(address, L1_SIZE)].Valid && 
+    if (SimpleCacheL1.lines[getIndex(address, L1_SIZE)].Valid &&
         SimpleCacheL1.lines[getIndex(address, L1_SIZE)].Tag == getTag(address, L1_SIZE)) {
         return; // L1 hit
     }
 
     // access L2
-    accessCache(&SimpleCacheL2, L2Cache, address, data, mode, L2_SIZE, L2_READ_TIME, L2_WRITE_TIME);
+    accessL2Cache(address, data, mode);
 
     // check hit in L2
-    if (SimpleCacheL2.lines[getIndex(address, L2_SIZE)].Valid && 
+    if (SimpleCacheL2.lines[getIndex(address, L2_SIZE)].Valid &&
         SimpleCacheL2.lines[getIndex(address, L2_SIZE)].Tag == getTag(address, L2_SIZE)) {
         // L2 hit -> copy to L1
         uint8_t TempBlock[BLOCK_SIZE];
-        memcpy(TempBlock, &(L2Cache[getIndex(address, L2_SIZE) * BLOCK_SIZE]), BLOCK_SIZE);
-        accessCache(&SimpleCacheL1, L1Cache, address, TempBlock, MODE_WRITE, L1_SIZE, L1_READ_TIME, L1_WRITE_TIME);
+        accessL1Cache(address, data, MODE_WRITE);
     } else {
         // L2 miss -> copy to L1 and L2
         accessDRAM(address, data, MODE_READ);
-        accessCache(&SimpleCacheL1, L1Cache, address, data, MODE_WRITE, L1_SIZE, L1_READ_TIME, L1_WRITE_TIME);
-        accessCache(&SimpleCacheL2, L2Cache, address, data, MODE_WRITE, L2_SIZE, L2_READ_TIME, L2_WRITE_TIME);
+        accessL1Cache(address, data, MODE_WRITE);
+        accessL2Cache(address, data, MODE_WRITE);
     }
 }
 
