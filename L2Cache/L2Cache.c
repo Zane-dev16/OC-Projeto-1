@@ -33,21 +33,8 @@ void accessDRAM(uint32_t address, uint8_t *data, uint32_t mode) {
 /*********************** Caches *************************/
 
 void initCaches() {
-    if (SimpleCacheL1.init == 0) {
-        for (uint32_t i = 0; i < L1_SIZE / BLOCK_SIZE; i++) {
-            SimpleCacheL1.lines[i].Valid = 0;
-            SimpleCacheL1.lines[i].Dirty = 0;
-        }
-        SimpleCacheL1.init = 1;
-    }
-
-    if (SimpleCacheL2.init == 0) {
-        for (uint32_t i = 0; i < L2_SIZE / BLOCK_SIZE; i++) {
-            SimpleCacheL2.lines[i].Valid = 0;
-            SimpleCacheL2.lines[i].Dirty = 0;
-        }
-        SimpleCacheL2.init = 1;
-    }
+    SimpleCacheL1.init = 0;
+    SimpleCacheL2.init = 0;
 }
 
 uint32_t createBitMask(uint32_t bits) {
@@ -95,7 +82,12 @@ void accessL2Cache(uint32_t address, uint8_t *data, uint32_t mode) {
     CacheDataIndex = CacheBlockIndex + BlockOffset;
 
     /* init cache */
-    //initCaches();
+    if (SimpleCacheL2.init == 0) {
+        for (int i = 0; i < L1_SIZE / BLOCK_SIZE; i++) {
+            SimpleCacheL2.lines[i].Valid = 0;
+        }
+        SimpleCacheL2.init = 1;
+    }
 
     CacheLine *Line = &SimpleCacheL2.lines[index];
 
@@ -141,7 +133,12 @@ void accessL1Cache(uint32_t address, uint8_t *data, uint32_t mode) {
     CacheDataIndex = CacheBlockIndex + BlockOffset;
 
     /* init cache */
-    //initCaches();
+    if (SimpleCacheL1.init == 0) {
+        for (int i = 0; i < L1_SIZE / BLOCK_SIZE; i++) {
+            SimpleCacheL1.lines[i].Valid = 0;
+        }
+        SimpleCacheL1.init = 1;
+    }
 
     CacheLine *Line = &SimpleCacheL1.lines[index];
 
