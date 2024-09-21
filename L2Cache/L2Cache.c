@@ -83,7 +83,7 @@ void accessL2Cache(uint32_t address, uint8_t *data, uint32_t mode) {
 
     /* init cache */
     if (SimpleCacheL2.init == 0) {
-        for (int i = 0; i < L1_SIZE / BLOCK_SIZE; i++) {
+        for (int i = 0; i < L2_SIZE / BLOCK_SIZE; i++) {
             SimpleCacheL2.lines[i].Valid = 0;
         }
         SimpleCacheL2.init = 1;
