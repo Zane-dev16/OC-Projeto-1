@@ -67,6 +67,14 @@ uint32_t getMemAddress(uint32_t address) {
     return MemAddress;
 }
 
+uint32_t getMemAddressFromCacheInfo(uint32_t Tag, uint32_t index, uint32_t cacheSize) {
+    uint32_t MemAddress;
+    MemAddress = Tag << getNumIndexBits(L1_SIZE);        
+    MemAddress = MemAddress | index;
+    MemAddress = MemAddress << getNumBlockOffsetBits();
+    return MemAddress; 
+}
+
 /*********************** Cache L2 *************************/
 
 void accessL2Cache(uint32_t address, uint8_t *data, uint32_t mode) {
@@ -96,8 +104,8 @@ void accessL2Cache(uint32_t address, uint8_t *data, uint32_t mode) {
         accessDRAM(MemAddress, TempBlock, MODE_READ);   // get new block from DRAM
 
         if ((Line->Valid) && (Line->Dirty)) {           // line has dirty block
-            MemAddress = Line->Tag << 3;
-            accessDRAM(MemAddress, &(L2Cache[CacheBlockIndex]), MODE_WRITE);  // then write back old block
+            MemAddress = getMemAddressFromCacheInfo(Line->Tag, index, L2_SIZE);
+            accessDRAM(MemAddress, &(L2Cache[CacheBlockIndex]), MODE_WRITE); // then write back old block
         }
 
         memcpy(&(L2Cache[CacheBlockIndex]), TempBlock, BLOCK_SIZE); // copy new block to L2
@@ -147,8 +155,8 @@ void accessL1Cache(uint32_t address, uint8_t *data, uint32_t mode) {
         accessL2Cache(address, TempBlock, MODE_READ);   // get new block from L2
 
         if ((Line->Valid) && (Line->Dirty)) {           // line has dirty block
-            MemAddress = Line->Tag << 3;
-            accessDRAM(MemAddress, &(L1Cache[CacheBlockIndex]), MODE_WRITE);  // then write back old block
+            MemAddress = getMemAddressFromCacheInfo(Line->Tag, index, L1_SIZE);
+            accessDRAM(MemAddress, &(L1Cache[CacheBlockIndex]), MODE_WRITE); // then write back old block
         }
 
         memcpy(&(L1Cache[CacheBlockIndex]), TempBlock, BLOCK_SIZE); // copy new block to L1
