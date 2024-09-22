@@ -156,7 +156,7 @@ void accessL1Cache(uint32_t address, uint8_t *data, uint32_t mode) {
 
         if ((Line->Valid) && (Line->Dirty)) {           // line has dirty block
             MemAddress = getMemAddressFromCacheInfo(Line->Tag, index, L1_SIZE);
-            accessDRAM(MemAddress, &(L1Cache[CacheBlockIndex]), MODE_WRITE); // then write back old block
+            accessL2Cache(MemAddress, &(L1Cache[CacheBlockIndex]), MODE_WRITE); // then write back old block
         }
 
         memcpy(&(L1Cache[CacheBlockIndex]), TempBlock, BLOCK_SIZE); // copy new block to L1
