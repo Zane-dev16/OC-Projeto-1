@@ -116,9 +116,7 @@ void accessL1Cache(uint32_t address, uint8_t *data, uint32_t mode) {
     }
 }
 
-
 /*********************** Cache L2 (2 way associative)*************************/
-
 
 void accessL2Cache(uint32_t address, uint8_t *data, uint32_t mode) {
 
@@ -197,7 +195,6 @@ void accessL2Cache(uint32_t address, uint8_t *data, uint32_t mode) {
     }  
 }   
 
-
 /* ************************************* Caches Handler *************************************************** */
 
 void cachesAccessesHandler(uint32_t address, uint8_t *data, uint32_t mode) {
@@ -226,6 +223,7 @@ void cachesAccessesHandler(uint32_t address, uint8_t *data, uint32_t mode) {
         accessL2Cache(address, data, MODE_WRITE);
     }
 }
+
 void read(uint32_t address, uint8_t *data) {
     cachesAccessesHandler(address, data, MODE_READ);
 }
