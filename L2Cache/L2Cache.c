@@ -177,39 +177,10 @@ void accessL1Cache(uint32_t address, uint8_t *data, uint32_t mode) {
     }
 }
 
-/*********************** Caches Access Handler *************************/
-
-void cachesAccessesHandler(uint32_t address, uint8_t *data, uint32_t mode) {
-
-    // access L1
-    accessL1Cache(address, data, mode);
-
-    // check miss
-    if (SimpleCacheL1.lines[getIndex(address, L1_SIZE)].Valid &&
-        SimpleCacheL1.lines[getIndex(address, L1_SIZE)].Tag == getTag(address, L1_SIZE)) {
-        return; // L1 hit
-    }
-
-    // access L2
-    accessL2Cache(address, data, mode);
-
-    // check hit in L2
-    if (SimpleCacheL2.lines[getIndex(address, L2_SIZE)].Valid &&
-        SimpleCacheL2.lines[getIndex(address, L2_SIZE)].Tag == getTag(address, L2_SIZE)) {
-        // L2 hit -> copy to L1
-        accessL1Cache(address, data, MODE_WRITE);
-    } else {
-        // L2 miss -> copy to L1 and L2
-        accessDRAM(address, data, MODE_READ);
-        accessL1Cache(address, data, MODE_WRITE);
-        accessL2Cache(address, data, MODE_WRITE);
-    }
-}
-
 void read(uint32_t address, uint8_t *data) {
-    cachesAccessesHandler(address, data, MODE_READ);
+    accessL1Cache(address, data, MODE_READ);
 }
 
 void write(uint32_t address, uint8_t *data) {
-    cachesAccessesHandler(address, data, MODE_WRITE);
+    accessL1Cache(address, data, MODE_WRITE);
 }
