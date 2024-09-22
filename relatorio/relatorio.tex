@@ -33,7 +33,7 @@
 
 \title{Relatório do Projeto de Simulador de Cache}
 
-\author{Seu Nome}
+\author{Duarte Ramires, David Quintino e Irell Zane}
 \date{\today}
 
 \begin{document}
@@ -50,57 +50,23 @@ Este relatório descreve a implementação das três tarefas do primeiro projeto
 \end{itemize}
 
 \section{Cache L1 de Mapeamento Direto}
-\subsection{Mapeamento Direto}
-No mapeamento direto, cada bloco de memória principal tem uma única linha de cache onde pode ser armazenado. Portanto, a localização correspondente na cache pode ser interpretada a partir do endereço dos dados na DRAM.
+\subsection{Cache de múltiplas linhas}
+O código base fornecia uma cache que armazenava apenas uma linha. A estrutura da cache foi alterada para ser uma \textit{struct} contendo várias linhas. 
 
-\subsection{Componentes Principais da Implementação}
+\subsection{Interpretação do endereço}
+
+Foi criada uma lista de funções para obter as diferentes partes do endereço:
 \begin{itemize}
-\item \textbf{Cache L1}: Simula a memória do cache, rápida e pequena. Uma lista de bytes representando os dados do cache.
-\item \textbf{DRAM}: Simula a memória principal, mais lenta mas com maior capacidade.
-\item \textbf{SimpleCache}: Uma estrutura contendo as linhas do cache e init flag
-\item \textbf{Estrutura de Linha de Cache}: Cada linha contém:
-\begin{itemize}
-\item Tag
-\item Valid Bit
-\item Dirty bit (para política de write-back)
+    \item \texttt{getIndex} para obter o índice de um bloco na cache.
+    \item \texttt{getBlockOffset} para obter o índice da palavra dentro do bloco na cache.
+    \item \texttt{getMemAddress} para obter o endereço da memória onde o bloco de dados está armazenado.
 \end{itemize}
-\end{itemize}
-\subsection{Operações Principais}
 
-\subsubsection{Leitura do Cache}
+O código base foi atualizado para utilizar estas funções. Assim, o argumento do endereço consegue ser interpretado corretamente para obter a linha correspondente na cache e realizar as operações corretas.
 
-\begin{enumerate}
-    \item \textbf{Extração de Índice e Tag:} É Extraído o índíce e o tag do
-    do endereço.
+\subsection{Write-back policy}
 
-    \item \textbf{Verificação do Bloco no Cache:} O índice extraída determina a linha do cache a ser acessada. Da linha da cache é verificada a bit de validade. Se o bloco estiver válido é comparado a tag armazenada com a tag extraída do endereço.
+A última alteração realizada trata dos \textit{cache misses} enquanto a linha da cache contém dados com um \textit{dirty flag}. A função \texttt{getMemAddressFromCacheInfo} obtém o endereço da DRAM que corresponde aos dados \textit{dirty} na cache. Com isso, é possível fazer o \textit{write-back} para o endereço correto na DRAM antes de atualizar a linha/bloco na cache, seguindo o \textit{write-back policy}.
 
-    \item \textbf{Tratamento de Cache Hit:} Se a tag corresponde e o bloco está presente no cache (cache hit), os dados são lidos diretamente do cache e retornados.
-
-    \item \textbf{Tratamento de Cache Miss:} Se o valid bit estiver a 0 ou a tag não corresponde (cache miss):
-    \begin{itemize}
-        \item \textbf{Escrita de Bloco Sujo:} Se a linha do cache que será substituída está marcada como dirty, o bloco atual é escrito de volta para a DRAM antes de ser substituído.
-
-        \item \textbf{Leitura de Novo Bloco:} Após a escrita do bloco sujo, um novo bloco é carregado da DRAM para o cache. 
-
-        \item \textbf{Atualização do Dirty Bit:} O dirty bit é atualizado para 0.
-    \end{itemize}
-
-    \item \textbf{Atualização do Bit de Validade:} Finalmente, o bit de validade é atualizado para 1. 
-    
-\end{enumerate}
-
-
-\subsubsection{Escrita no Cache}
-
-\begin{enumerate}
-    \item \textbf{Escrita dos Dados no Cache:} Quando uma operação de escrita é realizada, os dados são diretamente escritos no bloco correspondente do cache, em vez de serem enviados imediatamente para a DRAM.
-
-    \item \textbf{Marca o Bloco como "Dirty":} Após a escrita dos dados no cache, o bloco modificado é marcado como dirty.
-
-
-\end{enumerate}
-A DRAM é atualizada somente quando o bloco do cache é substituído devido a uma operação de cache miss seguindo uma política de write-back. 
-
-\section{Conclusão}
 \end{document}
+
