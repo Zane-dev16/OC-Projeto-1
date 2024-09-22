@@ -69,7 +69,7 @@ uint32_t getMemAddress(uint32_t address) {
 
 uint32_t getMemAddressFromCacheInfo(uint32_t Tag, uint32_t index, uint32_t cacheSize) {
     uint32_t MemAddress;
-    MemAddress = Tag << getNumIndexBits(L1_SIZE);        
+    MemAddress = Tag << getNumIndexBits(cacheSize);        
     MemAddress = MemAddress | index;
     MemAddress = MemAddress << getNumBlockOffsetBits();
     return MemAddress; 
