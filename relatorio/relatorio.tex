@@ -73,13 +73,11 @@ O código base foi atualizado para utilizar estas funções. Assim, o argumento 
 A última alteração realizada trata dos \textit{cache misses} enquanto a linha da cache contém dados com um \textit{dirty flag}. A função \texttt{getMemAddressFromCacheInfo} obtém o endereço da DRAM que corresponde aos dados \textit{dirty} na cache. Com isso, é possível fazer o \textit{write-back} para o endereço correto na DRAM antes de atualizar a linha/bloco na cache, seguindo a \textit{write-back policy}.
 
 \section{Cache L2 - 2 níveis com Mapeamento Direto}
-\subsection{Função da Cache L2}
-A cache L2 atua como uma camada intermédia entre a cache L1 e a memória DRAM. L1 é acessada primeiro e, quando não encontra o bloco de dados solicitado (cache miss), procura esse bloco em L2. Caso o bloco não esteja presente (cache miss duplo), a busca continua na DRAM. Após um cache miss em L2, o bloco recuperado da DRAM é escrito tanto em L2 como em L1, otimizando o tempo de acesso para futuras operações.
 
-\subsection{Estrutura da Cache L2}
-A cache L2 é semelhante à cache L1, mas possui uma maior capacidade. As operações de leitura e escrita na cache L2 seguem igualmente uma política de mapeamento direto, utilizando funções específicas para extrair as diferentes partes do endereço, tal como ocorre na cache L1.
+\subsection{Função da Cache L2 como camada intermédia} O acesso à cache L1 é feito primeiro, e, quando não encontra o bloco de dados solicitado (cache miss), a função \texttt{accessL2Cache} é chamada para procurar esse bloco em L2. Caso o bloco não esteja presente (cache miss duplo), a busca continua na DRAM. Após um cache miss em L2, o bloco recuperado da DRAM é armazenado tanto em L2 como em L1, utilizando a função \texttt{memcpy} para otimizar o tempo de acesso em futuras operações. 
 
-\subsection{Política de Write-back}
-L2 implementa uma \textit{write-back policy} que abrange tanto a L1 como a DRAM. Quando uma linha marcada como \textit{dirty} na cache L2 precisa de ser substituída, os dados são primeiro escritos de volta para a DRAM. Da mesma forma, se uma linha na cache L1 precisar de ser substituída e estiver marcada como \textit{dirty}, os dados serão escritos na L2 antes da substituição. Assim, as alterações feitas nas caches não são perdidas e tanto a L2 como a DRAM terão os dados mais recentes.
+\subsection{Estrutura da Cache L2} A cache L2 é semelhante à cache L1, mas possui uma maior capacidade. As operações de leitura e escrita na cache L2 seguem uma política de mapeamento direto, implementada nas mesmas funções que em L1. A inicialização da cache L2 é tratada pela função \texttt{initCaches}, que prepara as linhas de cache para acesso.
+
+\subsection{Política de Write-back} L2 implementa uma \textit{write-back policy} que abrange tanto a cache L1 como a DRAM. Quando uma linha marcada como \textit{dirty} na cache L2 precisa de ser substituída, a mesma lógica da cache de um nível é aplicada. Da mesma forma, se uma linha na cache L1 precisar de ser substituída e estiver marcada como \textit{dirty}, os dados serão escritos na L2 utilizando a função \texttt{accessL2Cache} antes da substituição. Assim, as alterações feitas nas caches não são perdidas, e tanto a L2 como a DRAM terão os dados mais recentes.
 
 \end{document}
