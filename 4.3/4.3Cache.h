@@ -18,7 +18,36 @@ void accessDRAM(uint32_t, uint8_t *, uint32_t);
 /*********************** Cache *************************/
 
 void initCaches();
-void accessL1(uint32_t, uint8_t *, uint32_t);
+
+uint32_t createBitMask(uint32_t);
+
+uint32_t getNumIndexBits(uint32_t);
+
+uint32_t getNumBlockOffsetBits();
+
+uint32_t getTag(uint32_t, uint32_t);
+
+uint32_t getIndex(uint32_t, uint32_t);
+
+uint32_t getNumIndexBitsAssociative(uint32_t);
+
+uint32_t getTagAssociative(uint32_t, uint32_t);
+
+uint32_t getIndexAssociative(uint32_t, uint32_t);
+
+uint32_t getBlockOffset(uint32_t);
+
+uint32_t getMemAddress(uint32_t);
+
+uint32_t getMemAddressFromCacheInfo(uint32_t, uint32_t, uint32_t);
+
+uint32_t getMemAddressFromCacheInfoAssociative(uint32_t, uint32_t, uint32_t);
+
+
+void accessL1Cache(uint32_t, uint8_t *, uint32_t);
+
+void accessL2Cache(uint32_t, uint8_t *, uint32_t);
+
 
 
 typedef struct CacheLine {

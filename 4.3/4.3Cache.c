@@ -99,7 +99,7 @@ void accessL1Cache(uint32_t address, uint8_t *data, uint32_t mode) {
 
     uint32_t index, Tag, MemAddress, BlockOffset, CacheBlockIndex, CacheDataIndex;
     uint8_t TempBlock[BLOCK_SIZE];
-
+\
     index = getIndex(address, L1_SIZE);
     Tag = getTag(address, L1_SIZE);
     MemAddress = getMemAddress(address);
@@ -119,7 +119,7 @@ void accessL1Cache(uint32_t address, uint8_t *data, uint32_t mode) {
 
     /* access Cachen */
     if (!Line->Valid || Line->Tag != Tag) {             // if block not present - miss
-        accessL1Cache(address, TempBlock, MODE_READ);   // get new block from L2
+        accessL2Cache(address, TempBlock, MODE_READ);   // get new block from L2
 
         if ((Line->Valid) && (Line->Dirty)) {           // line has dirty block
             MemAddress = getMemAddressFromCacheInfo(Line->Tag, index, L1_SIZE);
@@ -191,7 +191,7 @@ void accessL2Cache(uint32_t address, uint8_t *data, uint32_t mode) {
         accessDRAM(MemAddress, TempBlock, MODE_READ);   // get new block from DRAM
 
         if ((Line->Valid) && (Line->Dirty)) {           // line has dirty block
-            MemAddress = getMemAddressFromCacheInfoAssociative(Line->Tag, index, L1_SIZE);
+            MemAddress = getMemAddressFromCacheInfoAssociative(Line->Tag, index, L2_SIZE);
             accessDRAM(MemAddress, &(L2Cache[CacheBlockIndex]), MODE_WRITE);  // then write back old block
         }
 
@@ -223,39 +223,10 @@ void accessL2Cache(uint32_t address, uint8_t *data, uint32_t mode) {
     }  
 }   
 
-/* ************************************* Caches Handler *************************************************** */
-
-void cachesAccessesHandler(uint32_t address, uint8_t *data, uint32_t mode) {
-
-    // access L1
-    accessL1Cache(address, data, mode);
-
-    // check miss
-    if (SimpleCacheL1.lines[getIndex(address, L1_SIZE)].Valid &&
-        SimpleCacheL1.lines[getIndex(address, L1_SIZE)].Tag == getTag(address, L1_SIZE)) {
-        return; // L1 hit
-    }
-
-    // access L2
-    accessL2Cache(address, data, mode);
-    uint8_t twowayindex = getIndexAssociative(address, L2_SIZE) >> 1;
-    // check hit in L2
-    if ((SimpleCacheL2.lines[twowayindex].Valid && SimpleCacheL2.lines[twowayindex].Tag == getTag(address, L2_SIZE)) ||
-        (SimpleCacheL2.lines[twowayindex + 1].Valid && SimpleCacheL2.lines[twowayindex + 1].Tag == getTag(address, L2_SIZE))) {
-        // L2 hit -> copy to L1
-        accessL1Cache(address, data, MODE_WRITE);
-    } else {
-        // L2 miss -> copy to L1 and L2
-        accessDRAM(address, data, MODE_READ);
-        accessL1Cache(address, data, MODE_WRITE);
-        accessL2Cache(address, data, MODE_WRITE);
-    }
-}
-
 void read(uint32_t address, uint8_t *data) {
-    cachesAccessesHandler(address, data, MODE_READ);
+    accessL1Cache(address, data, MODE_READ);
 }
 
 void write(uint32_t address, uint8_t *data) {
-    cachesAccessesHandler(address, data, MODE_WRITE);
+    accessL1Cache(address, data, MODE_WRITE);
 }
