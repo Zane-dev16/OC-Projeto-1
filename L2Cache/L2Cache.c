@@ -4,8 +4,8 @@ uint8_t L1Cache[L1_SIZE];
 uint8_t L2Cache[L2_SIZE];
 uint8_t DRAM[DRAM_SIZE];
 uint32_t time;
-Cache SimpleCacheL1;
-Cache SimpleCacheL2;
+CacheL1 SimpleCacheL1;
+CacheL2 SimpleCacheL2;
 
 
 /**************** Time Manipulation ***************/

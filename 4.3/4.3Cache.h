@@ -57,10 +57,15 @@ typedef struct CacheLine {
   uint8_t Recent;  /*Whichever line has this bit as 1 is the one who was acessed most recently*/
 } CacheLine;
 
-typedef struct Cache {
+typedef struct CacheL1 {
   uint32_t init;
   CacheLine lines[L1_SIZE / BLOCK_SIZE];
-} Cache;
+} CacheL1;
+
+typedef struct CacheL2 {
+  uint32_t init;
+  CacheLine lines[L2_SIZE / BLOCK_SIZE];
+} CacheL2;
 
 /*********************** Interfaces *************************/
 
