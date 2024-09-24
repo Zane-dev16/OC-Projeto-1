@@ -99,7 +99,7 @@ void accessL1Cache(uint32_t address, uint8_t *data, uint32_t mode) {
 
     uint32_t index, Tag, MemAddress, BlockOffset, CacheBlockIndex, CacheDataIndex;
     uint8_t TempBlock[BLOCK_SIZE];
-\
+
     index = getIndex(address, L1_SIZE);
     Tag = getTag(address, L1_SIZE);
     MemAddress = getMemAddress(address);
@@ -123,7 +123,7 @@ void accessL1Cache(uint32_t address, uint8_t *data, uint32_t mode) {
 
         if ((Line->Valid) && (Line->Dirty)) {           // line has dirty block
             MemAddress = getMemAddressFromCacheInfo(Line->Tag, index, L1_SIZE);
-            accessDRAM(MemAddress, &(L1Cache[CacheBlockIndex]), MODE_WRITE);  // then write back old block
+            accessL2Cache(MemAddress, &(L1Cache[CacheBlockIndex]), MODE_WRITE);  // then write back old block
         }
 
         memcpy(&(L1Cache[CacheBlockIndex]), TempBlock, BLOCK_SIZE); // copy new block to L1
@@ -169,7 +169,7 @@ void accessL2Cache(uint32_t address, uint8_t *data, uint32_t mode) {
     }
 
     
-    new_index = index >> 1; /* Adding a zero at the end to reach the correct adress*/
+    new_index = index << 1; /* Adding a zero at the end to reach the correct adress*/
     CacheLine *Line;
     CacheLine *Line0 = &SimpleCacheL2.lines[new_index];
     CacheLine *Line1 = &SimpleCacheL2.lines[new_index + 1];
